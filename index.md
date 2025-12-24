@@ -24,8 +24,7 @@ permalink: /
 <div class="content-wrapper">
     <h2>Welcome to the TLMRL</h2>
     <p>
-        The <strong>Translational Livestock Microbiome Research Lab (TLMRL)</strong> is dedicated to understanding the complex dynamics of the microbiome in livestock species. 
-        By integrating multi-omics approaches—including metagenomics, metatranscriptomics, and metabolomics—we aim to translate fundamental discoveries into practical solutions for the agriculture industry.
+        The <strong>Translational Livestock Microbiome Research (TLMR) Lab </strong> is dedicated to understanding the complex dynamics of the microbiome in livestock species. TLMR lab uses high-throughput culturomics and genome-resolved functional profiling to study livestock microbiomes. By combining culture-based discovery with short- and long-read genomics, we aim to translate microbial insights into practical solutions for livestock production and sustainability.
     </p>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
