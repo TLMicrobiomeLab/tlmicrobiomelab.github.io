@@ -14,7 +14,10 @@ permalink: /
 
     <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
         <a href="{{ '/projects' | relative_url }}" style="background-color: #366372; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold;">Our Research</a>
+        
         <a href="{{ '/people' | relative_url }}" style="background-color: #89A46B; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold;">Meet the Team</a>
+
+        <a href="{{ '/prospective' | relative_url }}" style="background-color: #555; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold;">Join the Team</a>
     </div>
 </div>
 
