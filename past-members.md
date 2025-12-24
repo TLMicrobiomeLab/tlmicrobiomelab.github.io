@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Past Members
+permalink: /past-members/
 ---
 
 <div class="content-wrapper">
@@ -21,11 +22,6 @@ title: Past Members
       <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>John Doe</strong></td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">MSc Student (2022-2024)</td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">PhD Candidate at University of Guelph</td>
-    </tr>
-    <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Dr. Jane Smith</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Postdoc (2021-2023)</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Scientist at Agriculture Canada</td>
     </tr>
   </tbody>
 </table>
