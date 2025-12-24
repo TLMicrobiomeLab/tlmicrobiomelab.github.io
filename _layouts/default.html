@@ -1,39 +1,48 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | TLMRL</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/images/logo.png' | relative_url }}">
+</head>
+<body>
 
-<div class="hero">
-    <div class="hero-overlay">
-        <h1>Advancing Livestock Health Through Microbiome Science</h1>
-        <p>Decoding the host-microbe dialogue in cattle and swine.</p>
-        <div class="hero-buttons">
-            <a href="projects" class="btn btn-primary">Our Research</a>
-            <a href="publications" class="btn btn-secondary">Publications</a>
+    <header>
+        <div class="nav-container">
+            <div class="logo-area">
+                <a href="{{ '/' | relative_url }}" style="text-decoration: none; display: flex; align-items: center; gap: 15px;">
+                    <img src="{{ '/images/logo.png' | relative_url }}" alt="TLMRL Logo" style="height: 80px; width: auto;">
+                    
+                    <div class="lab-name">
+                        Translational Livestock Microbiome<br>Research Lab
+                    </div>
+                </a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/about' | relative_url }}">About</a></li>
+                    <li><a href="{{ '/people' | relative_url }}">People</a></li>
+                    <li><a href="{{ '/past-members' | relative_url }}">Past Members</a></li>
+                    <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+                    <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-</div>
+    </header>
 
-<section id="about">
-    <div class="section-header">
-        <h2>Our Mission</h2>
-    </div>
-    <div class="grid-3">
-        <div class="card">
-            <i class="fas fa-dna card-icon"></i>
-            <h3>The Mission</h3>
-            <p>The ILMRL investigates the complex interactions within the microbiomes of production animals.</p>
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; {{ 'now' | date: "%Y" }} Translational Livestock Microbiome Research Lab. All rights reserved.</p>
         </div>
-        <div class="card">
-            <i class="fas fa-newspaper card-icon"></i>
-            <h3>Latest News</h3>
-            <p><strong>Dec 2025:</strong> New Grant Awarded for rumen methanogen reduction.</p>
-            <p><strong>Nov 2025:</strong> Paper published in <em>Nature Microbiology</em>.</p>
-        </div>
-        <div class="card highlight-card">
-            <i class="fas fa-user-graduate card-icon"></i>
-            <h3>Join the Lab</h3>
-            <p>Recruiting graduate students with bioinformatics experience.</p>
-        </div>
-    </div>
-</section>
+    </footer>
+
+</body>
+</html>
