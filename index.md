@@ -31,7 +31,7 @@ permalink: /
         
         <div style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
             <h3 style="color: #366372; margin-top: 0;">Microbiome & Health</h3>
-            <p>Investigating how early-life microbial colonization influences immune development and resilience against pathogens in swine and ruminants.</p>
+            <p>Investigating how resident microbial community influences host immune development and resilience against pathogens in swine and ruminants.</p>
         </div>
 
         <div style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
