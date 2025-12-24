@@ -19,7 +19,7 @@ permalink: /past-members/
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Daniel Flores Orozco</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Dr. Daniel Flores Orozco</strong></td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">Postdoctoral Fellow</td>
       <td style="padding: 12px; border-bottom: 1px solid #ddd;">Data Analyst, THRiVE Discovery Lab, University of Manitoba</td>
     </tr>
