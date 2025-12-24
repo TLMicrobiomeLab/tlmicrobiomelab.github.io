@@ -13,15 +13,15 @@ permalink: /past-members/
   <thead>
     <tr style="background-color: #f4f7f6; text-align: left;">
       <th style="padding: 12px; border-bottom: 2px solid #366372; color: #366372;">Name</th>
-      <th style="padding: 12px; border-bottom: 2px solid #366372; color: #366372;">Role & Years</th>
+      <th style="padding: 12px; border-bottom: 2px solid #366372; color: #366372;">Role</th>
       <th style="padding: 12px; border-bottom: 2px solid #366372; color: #366372;">Current Position</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>John Doe</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">MSc Student (2022-2024)</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">PhD Candidate at University of Guelph</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Daniel Flores Orozco</strong></td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Postdoctoral Fellow</td>
+      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Data Analyst, THRiVE Discovery Lab, University of Manitoba</td>
     </tr>
   </tbody>
 </table>
