@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="content-wrapper">
 
-<h1>About the TLMRL</h1>
+<h1>About the TLMR Lab</h1>
 
 <div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 2rem; flex-wrap: wrap;">
     
