@@ -2,7 +2,7 @@
 
 This is the source code for the **Translational Livestock Microbiome Research Lab** website.
 
-**Live Website:** [https://ilmrl.github.io](https://ilmrl.github.io)
+**Live Website:** [Translational Livestock Microbiome Research Lab](https://tlmicrobiomelab.github.io/)
 
 ## About the Lab
 The TLMRL is dedicated to solving complex agricultural challenges through microbiome science. Our research integrates multi-omics data (metagenomics, metatranscriptomics, metabolomics) to decode host-microbe interactions in livestock species.
