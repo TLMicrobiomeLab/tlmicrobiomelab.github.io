@@ -30,3 +30,4 @@ To run this website locally on your computer:
 ## Credits
 * **Built with:** [Jekyll](https://jekyllrb.com/)
 * **Hosted on:** GitHub Pages
+* **This site was created and maintained by Zisanur Rahman, PhD. For any suggestion or queries, email at a.rahman@umanitoba.ca
