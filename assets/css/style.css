@@ -241,3 +241,7 @@ img[src*="logo"] {
     /* Optional: ensures the cut is clean */
     -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
+/* Rounds the lab photo on the About page */
+img[alt="Lab Environment"] {
+    border-radius: 8px;
+}
