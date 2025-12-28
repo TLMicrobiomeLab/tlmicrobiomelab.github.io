@@ -231,3 +231,17 @@ hr {
         margin-bottom: 1rem;
     }
 }
+
+/* =========================================
+   7. LOGO TRANSPARENCY FIX
+   ========================================= */
+/* This effectively removes the white background from the logo */
+img[src*="logo"] {
+    mix-blend-mode: multiply;
+}
+
+/* Fix for the About Page image if it also has a white box */
+img[alt="Lab Environment"] {
+    mix-blend-mode: multiply;
+    box-shadow: none !important; /* Removes the square shadow */
+}
