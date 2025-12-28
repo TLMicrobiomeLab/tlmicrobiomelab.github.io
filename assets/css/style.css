@@ -245,15 +245,7 @@ hr {
     border-radius: 50% !important;
     mix-blend-mode: multiply; /* Helps it blend into the grey background */
 }
-/* =========================================
-   8. LOGO SHAPE FIX
-   ========================================= */
-/* This trims the square corners off the logo, making it a perfect circle */
-img[src*="logo"] {
-    border-radius: 50%;
-    /* Optional: ensures the cut is clean */
-    -webkit-mask-image: -webkit-radial-gradient(white, black);
-}
+
 /* Rounds the lab photo on the About page */
 img[alt="Lab Environment"] {
     border-radius: 8px;
