@@ -3,8 +3,8 @@
    ========================================= */
 :root {
     /* NEW COLORS FROM LOGO */
-    --primary-color: #002F5F;  /* Dark Blue from text/border */
-    --accent-color: #00A9B7;   /* Teal/Cyan from DNA/animals */
+    --primary-color: #002F5F;  /* Dark Blue */
+    --accent-color: #00A9B7;   /* Teal/Cyan */
     
     --text-color: #333;
     --bg-color: #fcfcfc;
@@ -57,8 +57,10 @@ a:hover {
    ========================================= */
 header {
     background-color: #fff;
-    border-bottom: 3px solid var(--primary-color); /* Thicker, primary color border */
+    /* REMOVED BORDER-BOTTOM */
+    border-bottom: none; 
     padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Added subtle shadow instead */
 }
 
 .nav-container {
@@ -106,18 +108,24 @@ nav a:hover {
 /* =========================================
    4. COMPONENTS & UTILITIES
    ========================================= */
-/* Buttons */
+/* NEW BUTTON CLASSES */
 .btn {
     display: inline-block;
     padding: 12px 24px;
     text-decoration: none;
     border-radius: 4px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.1s ease;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Primary Button (Dark Blue -> Teal on hover) */
 .btn-primary {
     background-color: var(--primary-color);
     color: white;
@@ -126,8 +134,10 @@ nav a:hover {
 .btn-primary:hover {
     background-color: var(--accent-color);
     text-decoration: none;
+    color: white;
 }
 
+/* Accent Button (Teal -> Dark Blue on hover) */
 .btn-accent {
     background-color: var(--accent-color);
     color: white;
@@ -136,6 +146,7 @@ nav a:hover {
 .btn-accent:hover {
     background-color: var(--primary-color);
     text-decoration: none;
+    color: white;
 }
 
 /* Horizontal Rule */
@@ -155,7 +166,8 @@ hr {
     background-color: var(--light-gray);
     border-radius: 8px;
     margin-bottom: 2rem;
-    border-bottom: 3px solid var(--accent-color);
+    /* Removed the bottom border here too for a cleaner look */
+    border-bottom: none; 
 }
 
 /* People Page - Profile Cards */
@@ -168,7 +180,7 @@ hr {
     padding: 1.5rem;
     border-radius: 8px;
     border: 1px solid #eee;
-    border-left: 4px solid var(--primary-color); /* Add colorful accent border */
+    border-left: 4px solid var(--primary-color); 
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
@@ -181,12 +193,7 @@ hr {
     border-radius: 50%;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border: 3px solid var(--accent-color); /* Add border to images */
-}
-
-/* Subheadings */
-.sub-heading {
-    color: var(--accent-color);
+    border: 3px solid var(--accent-color);
 }
 
 /* =========================================
@@ -203,6 +210,16 @@ hr {
         flex-wrap: wrap;
         justify-content: center;
         gap: 1rem;
+    }
+
+    .btn {
+        width: 100%; /* Make buttons full width on mobile */
+        margin-bottom: 0.5rem;
+    }
+    
+    .home-hero div[style*="display: flex"] {
+        flex-direction: column;
+        gap: 0.5rem;
     }
 
     .profile-card {
