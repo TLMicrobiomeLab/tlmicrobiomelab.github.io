@@ -2,9 +2,9 @@
    1. VARIABLES & RESET
    ========================================= */
 :root {
-    /* NEW COLORS FROM LOGO */
-    --primary-color: #002F5F;  /* Dark Blue */
-    --accent-color: #00A9B7;   /* Teal/Cyan */
+    /* EXACT LOGO COLORS */
+    --primary-color: #002F5F;  /* Dark Navy from TLMRL text */
+    --accent-color: #00A9B7;   /* Teal/Cyan from DNA */
     
     --text-color: #333;
     --bg-color: #fcfcfc;
@@ -57,10 +57,9 @@ a:hover {
    ========================================= */
 header {
     background-color: #fff;
-    /* REMOVED BORDER-BOTTOM */
-    border-bottom: none; 
+    border-bottom: none !important; /* FORCES border removal */
     padding: 1rem 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Added subtle shadow instead */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .nav-container {
@@ -108,7 +107,6 @@ nav a:hover {
 /* =========================================
    4. COMPONENTS & UTILITIES
    ========================================= */
-/* NEW BUTTON CLASSES */
 .btn {
     display: inline-block;
     padding: 12px 24px;
@@ -125,7 +123,7 @@ nav a:hover {
     transform: scale(0.98);
 }
 
-/* Primary Button (Dark Blue -> Teal on hover) */
+/* Dark Blue Button */
 .btn-primary {
     background-color: var(--primary-color);
     color: white;
@@ -137,7 +135,7 @@ nav a:hover {
     color: white;
 }
 
-/* Accent Button (Teal -> Dark Blue on hover) */
+/* Teal Button */
 .btn-accent {
     background-color: var(--accent-color);
     color: white;
@@ -166,8 +164,7 @@ hr {
     background-color: var(--light-gray);
     border-radius: 8px;
     margin-bottom: 2rem;
-    /* Removed the bottom border here too for a cleaner look */
-    border-bottom: none; 
+    border-bottom: none !important; /* FORCES border removal */
 }
 
 /* People Page - Profile Cards */
@@ -211,9 +208,9 @@ hr {
         justify-content: center;
         gap: 1rem;
     }
-
+    
     .btn {
-        width: 100%; /* Make buttons full width on mobile */
+        width: 100%;
         margin-bottom: 0.5rem;
     }
     
