@@ -231,3 +231,16 @@ hr {
         margin-bottom: 1rem;
     }
 }
+
+/* =========================================
+   7. LOGO TRANSPARENCY FIX
+   ========================================= */
+/* This makes the white background of the logo vanish */
+img[src*="logo"] {
+    mix-blend-mode: multiply;
+}
+
+/* Optional: If your team photos also have white boxes, add this: */
+.profile-img-container img {
+    mix-blend-mode: multiply;
+}
