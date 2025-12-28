@@ -29,7 +29,7 @@ permalink: /about/
     </div>
 
     <div style="flex: 0 0 300px;">
-        <img src="{{ '/images/logo4.png' | relative_url }}" alt="Lab Environment" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <img src="{{ '/images/logo3.png' | relative_url }}" alt="Lab Environment" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
         <p style="font-size: 0.9rem; color: #666; text-align: center; margin-top: 0.5rem;">Decoding the livestock microbiome</p>
     </div>
 
