@@ -233,15 +233,11 @@ hr {
 }
 
 /* =========================================
-   7. LOGO TRANSPARENCY FIX
+   7. LOGO SHAPE FIX
    ========================================= */
-/* This effectively removes the white background from the logo */
+/* This trims the square corners off the logo, making it a perfect circle */
 img[src*="logo"] {
-    mix-blend-mode: multiply;
-}
-
-/* Fix for the About Page image if it also has a white box */
-img[alt="Lab Environment"] {
-    mix-blend-mode: multiply;
-    box-shadow: none !important; /* Removes the square shadow */
+    border-radius: 50%;
+    /* Optional: ensures the cut is clean */
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
