@@ -231,9 +231,22 @@ hr {
         margin-bottom: 1rem;
     }
 }
-
 /* =========================================
-   7. LOGO SHAPE FIX
+   7. LOGO SHAPE FIX (FINAL)
+   ========================================= */
+/* 1. Target the Header Logo specifically */
+.logo-area img {
+    border-radius: 50% !important; /* Force it to be round */
+    border: 2px solid var(--primary-color); /* Optional: Adds a clean rim to hide jagged edges */
+}
+
+/* 2. Target the Big Home Hero Logo */
+.home-hero img {
+    border-radius: 50% !important;
+    mix-blend-mode: multiply; /* Helps it blend into the grey background */
+}
+/* =========================================
+   8. LOGO SHAPE FIX
    ========================================= */
 /* This trims the square corners off the logo, making it a perfect circle */
 img[src*="logo"] {
