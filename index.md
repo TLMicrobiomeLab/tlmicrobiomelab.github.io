@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="home-hero" style="text-align: center; padding: 4rem 1rem; background-color: #f8f9fa; border-radius: 8px; margin-bottom: 2rem;">
-    <img src="{{ '/images/logo.png' | relative_url }}" alt="TLMRL Logo" style="max-width: 200px; margin-bottom: 2rem;">
+    <img src="{{ '/images/logo2.png' | relative_url }}" alt="TLMRL Logo" style="max-width: 200px; margin-bottom: 2rem;">
     
     <h1 style="color: #366372; font-size: 2.5rem; margin-bottom: 1rem;">Translational Livestock Microbiome Research Lab</h1>
     <p style="font-size: 1.25rem; color: #555; max-width: 800px; margin: 0 auto 2rem;">
