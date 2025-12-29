@@ -248,15 +248,5 @@ hr {
 
 /* Fix for the About Page Image */
 img[alt="Lab Environment"] {
-    /* 1. Make it a circle (since it is the logo) */
-    border-radius: 50% !important;
-
-    /* 2. Hide the white background */
-    mix-blend-mode: multiply;
-
-    /* 3. CRITICAL: Remove the square shadow coming from the HTML */
-    box-shadow: none !important;
-    
-    /* 4. Add a nice Teal border to match your theme */
-    border: 3px solid var(--accent-color);
+   ...
 }
