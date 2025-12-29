@@ -11,7 +11,7 @@ permalink: /publications/
 
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
 
-<h2 style="color: #89A46B;">2025</h2>
+<h2 style="color: #011140;">2025</h2>
 <ul style="line-height: 1.6;">
     <li style="margin-bottom: 1rem;">
         <strong>Rahman N</strong>, McCullough T, Orozco DF,  Walkowiak S, Farzan A, Shekarriz S, Surette MG, Cicek N, Derakhshani H. (2025). 
@@ -27,7 +27,7 @@ permalink: /publications/
     </li>
 </ul>
 
-<h2 style="color: #89A46B; margin-top: 2rem;">2024</h2>
+<h2 style="color: #011140; margin-top: 2rem;">2024</h2>
 <ul style="line-height: 1.6;">
     <li style="margin-bottom: 1rem;">
         <strong>Alizadeh A</strong>, Derakhshani H, Plaizier JC. (2024). 
