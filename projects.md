@@ -12,7 +12,7 @@ permalink: /projects/
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 3rem;">
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #366372;">1. Microbiome & Host Health</h2>
+    <h2 style="color: #0A185F;">1. Microbiome & Host Health</h2>
     <p><strong>Goal:</strong> To understand how early-life microbial colonization shapes the immune system in swine and ruminants.</p>
     <p>We are investigating:</p>
     <ul>
@@ -23,7 +23,7 @@ permalink: /projects/
 </div>
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #366372;">2. Antimicrobial Resistance (AMR)</h2>
+    <h2 style="color: #0A185F;">2. Antimicrobial Resistance (AMR)</h2>
     <p><strong>Goal:</strong> To map and mitigate the spread of antimicrobial resistance genes (ARGs) in livestock environments.</p>
     <p>We use metagenomics to study:</p>
     <ul>
@@ -34,7 +34,7 @@ permalink: /projects/
 </div>
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #366372;">3. Sustainability & Methane Mitigation</h2>
+    <h2 style="color: #0A185F;">3. Sustainability & Methane Mitigation</h2>
     <p><strong>Goal:</strong> To reduce the environmental footprint of livestock production.</p>
     <p>Current projects include:</p>
     <ul>
