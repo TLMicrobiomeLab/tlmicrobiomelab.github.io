@@ -6,19 +6,19 @@ permalink: /about/
 
 <div class="content-wrapper">
 
-<h1>About the TLMR Lab</h1>
+<h1>About the TLMRL</h1>
 
 <div style="display: flex; gap: 2rem; align-items: flex-start; margin-top: 2rem; flex-wrap: wrap;">
     
     <div style="flex: 1; min-width: 300px;">
-        <p>The <strong>Translational Livestock Microbiome Research (TLMR) Lab </strong> is located in the Department of Animal Science at the University of Manitoba.</p> 
+        <p>The <strong>Translational Livestock Microbiome Research (TLMR) Lab</strong> is located at the University of Manitoba.</p> 
         
-        <p>We are an interdisciplinary team of molecular microbiologists, veterinarians, and computational biologists working together to solve critical challenges in livestock agriculture.</p>
+        <p>We are an interdisciplinary team of microbiologists, veterinarians, and computational biologists working together to solve critical challenges in livestock agriculture.</p>
 
-        <h3 style="color: #366372;">Our Mission</h3>
+        <h3 style="margin-top: 1.5rem;">Our Mission</h3>
         <p>To decode the complex interactions between livestock hosts and their resident microbiota, translating these fundamental discoveries into practical tools that improve animal health, production efficiency, and environmental sustainability.</p>
 
-        <h3 style="color: #366372;">Facilities</h3>
+        <h3 style="margin-top: 1.5rem;">Facilities</h3>
         <p>Our lab is equipped with state-of-the-art facilities for:</p>
         <ul>
             <li>Anaerobic microbiology and culturing (Rumen/Gut simulation)</li>
@@ -28,9 +28,15 @@ permalink: /about/
         </ul>
     </div>
 
-    <div style="flex: 0 0 300px;">
-        <img src="{{ '/images/logo3.png' | relative_url }}" alt="Lab Environment" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-        <p style="font-size: 0.9rem; color: #666; text-align: center; margin-top: 0.5rem;">Decoding the livestock microbiome</p>
+    <div style="flex: 0 0 300px; text-align: center;">
+        <img src="{{ '/images/logo.png' | relative_url }}" alt="Lab Environment" 
+             style="width: 100%; max-width: 250px; 
+                    border-radius: 50%; 
+                    mix-blend-mode: multiply; 
+                    box-shadow: none; 
+                    border: 2px solid #002F5F;">
+        
+        <p style="font-size: 0.9rem; color: #666; text-align: center; margin-top: 1rem;">Decoding the microbiome.</p>
     </div>
 
 </div>
