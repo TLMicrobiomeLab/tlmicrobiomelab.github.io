@@ -29,17 +29,17 @@ permalink: /
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
         
         <div style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-            <h3 style="margin-top: 0;">Microbiome & Health</h3>
+            <h3 style="margin-top: 0; color: #00A9B7;">Microbiome & Health</h3>
             <p>Investigating how early-life microbial colonization influences immune development and resilience against pathogens in swine and ruminants.</p>
         </div>
 
         <div style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-            <h3 style="margin-top: 0;">AMR Mitigation</h3>
+            <h3 style="margin-top: 0; color: #00A9B7;">AMR Mitigation</h3>
             <p>Mapping the "resistome" in livestock environments to develop strategies that reduce the spread of antimicrobial resistance genes.</p>
         </div>
 
         <div style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-            <h3 style="margin-top: 0;">Sustainability</h3>
+            <h3 style="margin-top: 0; color: #00A9B7;">Sustainability</h3>
             <p>Targeting rumen fermentation pathways to improve feed efficiency and reduce enteric methane emissions.</p>
         </div>
 
