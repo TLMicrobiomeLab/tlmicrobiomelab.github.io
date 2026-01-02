@@ -38,11 +38,49 @@
         {{ content }}
     </main>
 
+    <div class="funding-bar">
+        <div class="nav-container" style="flex-direction: column;">
+            <h4 style="margin-top: 0; color: #555; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Supported By</h4>
+            
+            <div class="carousel-wrapper">
+                <button class="carousel-btn prev" onclick="scrollFunding(-1)">&#10094;</button>
+
+                <div class="carousel-track" id="fundingTrack">
+                    <img src="{{ '/images/funding/cfi.png' | relative_url }}" alt="CFI">
+                    
+                    <img src="{{ '/images/funding/mitacs.png' | relative_url }}" alt="Mitacs">
+                    
+                    <img src="{{ '/images/funding/nserc.png' | relative_url }}" alt="NSERC">
+                    
+                    <img src="{{ '/images/funding/rm.png' | relative_url }}" alt="RM">
+                    
+                    <img src="{{ '/images/funding/scap.png' | relative_url }}" alt="SCAP">
+                    
+                    <img src="{{ '/images/funding/wdc.png' | relative_url }}" alt="WDC">
+                </div>
+
+                <button class="carousel-btn next" onclick="scrollFunding(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div class="footer-content">
             <p>&copy; {{ 'now' | date: "%Y" }} Translational Livestock Microbiome Research Lab. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        function scrollFunding(direction) {
+            const track = document.getElementById('fundingTrack');
+            const scrollAmount = 300; // Pixel distance to scroll per click
+            
+            track.scrollBy({ 
+                left: direction * scrollAmount, 
+                behavior: 'smooth' 
+            });
+        }
+    </script>
 
 </body>
 </html>
