@@ -23,7 +23,7 @@ permalink: /projects/
 </div>
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #0A185F;">2. Antimicrobial Resistance (AMR)</h2>
+    <h2 style="color: #00A9B7;">2. Antimicrobial Resistance (AMR)</h2>
     <p><strong>Goal:</strong> To map and mitigate the spread of antimicrobial resistance genes (ARGs) in livestock environments.</p>
     <p>We use metagenomics to study:</p>
     <ul>
@@ -34,7 +34,7 @@ permalink: /projects/
 </div>
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #0A185F;">3. Sustainability & Methane Mitigation</h2>
+    <h2 style="color: #00A9B7;">3. Sustainability & Methane Mitigation</h2>
     <p><strong>Goal:</strong> To reduce the environmental footprint of livestock production.</p>
     <p>Current projects include:</p>
     <ul>
