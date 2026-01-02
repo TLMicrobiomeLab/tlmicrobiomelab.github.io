@@ -15,10 +15,10 @@ permalink: /about/
         
         <p>We are an interdisciplinary team of microbiologists, veterinarians, and computational biologists working together to solve critical challenges in livestock agriculture.</p>
 
-        <h3 style="margin-top: 1.5rem;">Our Mission</h3>
+        <h3 style="margin-top: 1.5rem; color: #00A9B7;">Our Mission</h3>
         <p>To decode the complex interactions between livestock hosts and their resident microbiota, translating these fundamental discoveries into practical tools that improve animal health, production efficiency, and environmental sustainability.</p>
 
-        <h3 style="margin-top: 1.5rem;">Facilities</h3>
+        <h3 style="margin-top: 1.5rem; color: #00A9B7;">Facilities</h3>
         <p>Our lab is equipped with state-of-the-art facilities for:</p>
         <ul>
             <li>Anaerobic microbiology and culturing (Rumen/Gut simulation)</li>
