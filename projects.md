@@ -12,7 +12,7 @@ permalink: /projects/
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 3rem;">
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #0A185F;">1. Microbiome & Host Health</h2>
+    <h2 style="color: #00A9B7;">1. Microbiome & Host Health</h2>
     <p><strong>Goal:</strong> To understand how early-life microbial colonization shapes the immune system in swine and ruminants.</p>
     <p>We are investigating:</p>
     <ul>
