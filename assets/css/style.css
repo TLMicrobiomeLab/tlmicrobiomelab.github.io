@@ -250,3 +250,73 @@ hr {
 img[alt="Lab Environment"] {
    ...
 }
+/* =========================================
+   8. FUNDING CAROUSEL STYLES
+   ========================================= */
+.funding-bar {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.carousel-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px; /* Limits width so arrows stay close */
+    margin: 1rem auto 0;
+}
+
+/* The scrollable area (hides scrollbar but allows movement) */
+.carousel-track {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+    width: 100%;
+    
+    /* Hide scrollbar for cleaner look */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE */
+}
+
+.carousel-track::-webkit-scrollbar { 
+    display: none; /* Chrome/Safari */
+}
+
+.carousel-track img {
+    height: 50px;       /* Fixed height */
+    width: auto;
+    flex-shrink: 0;     /* Prevents squishing */
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    mix-blend-mode: multiply;
+}
+
+.carousel-track img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Arrow Buttons */
+.carousel-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0 15px;
+    user-select: none;
+    transition: color 0.3s;
+}
+
+.carousel-btn:hover {
+    color: var(--accent-color);
+}
