@@ -29,7 +29,7 @@ permalink: /about/
     </div>
 
     <div style="flex: 0 0 300px; text-align: center;">
-        <img src="{{ '/images/logo3.png' | relative_url }}" alt="Lab Environment" 
+        <img src="{{ '/images/logo5.png' | relative_url }}" alt="Lab Environment" 
              style="width: 100%; max-width: 250px; 
                     border-radius: 50%; 
                     mix-blend-mode: multiply; 
