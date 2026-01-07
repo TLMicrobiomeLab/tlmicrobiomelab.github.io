@@ -10,7 +10,7 @@ permalink: /publications/
 <p style="margin-bottom: 2rem;">
     This list is automatically retrieved from PubMed.
     <br>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Derakhshani+H%5BAuthor%5D+AND+(microbiome+OR+microbiota+OR+rumen+OR+swine+OR+bovine)" target="_blank" style="font-size: 0.9rem;">View on PubMed &rarr;</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Derakhshani+H%5BAuthor%5D" target="_blank" style="font-size: 0.9rem;">View on PubMed &rarr;</a>
 </p>
 
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
