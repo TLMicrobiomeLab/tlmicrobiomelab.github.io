@@ -31,7 +31,7 @@ permalink: /publications/
         // =================================================================
         const manualPapers = [
             {
-                title: "Effects of dietary fiber on fecal microbiota of grower–finisher pig offspring from parents with divergent estimated breeding value for feed conversion ratio",
+                title: "Effects of dietary fiber on fecal microbiota of grower–finisher pig offspring from parents with divergent estimated breeding value for feed conversion ratio.",
                 authors: ["P Azevedo", "S Jin", "Y Wu", "H Derakhshani", "H Xu", "H Lei", "L Verschuren", "C Yang"],
                 year: "2025",
                 journal: "Canadian Journal of Animal Science",
