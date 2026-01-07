@@ -10,7 +10,7 @@ permalink: /publications/
 <p style="margin-bottom: 2rem;">
     This list is automatically retrieved from PubMed.
     <br>
-    <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Derakhshani+H%5BAuthor%5D" target="_blank" style="font-size: 0.9rem;">View on PubMed &rarr;</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Derakhshani+H%5BAuthor%5D+AND+(microbiome+OR+microbiota+OR+rumen+OR+swine+OR+bovine)" target="_blank" style="font-size: 0.9rem;">View on PubMed &rarr;</a>
 </p>
 
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
@@ -26,10 +26,13 @@ permalink: /publications/
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         // =================================================================
-        // CONFIGURATION
+        // CONFIGURATION: SMARTER SEARCH FILTER
         // =================================================================
-        const searchTerm = "Derakhshani H[Author]"; 
-        const maxResults = 100; // Increased limit to ensure we get older years too
+        // This query finds "Derakhshani H" BUT filters for your specific keywords
+        // to exclude the psychiatrist (Horeyeh) and ensure your papers are found.
+        const searchTerm = 'Derakhshani H[Author] AND (Hooman[Author] OR microbiome OR microbiota OR rumen OR swine OR bovine OR pig OR cattle OR livestock OR fermentation OR "Animal Science")'; 
+        
+        const maxResults = 200; // Increased to ensure we don't "miss" papers if the list is long
         // =================================================================
 
         const container = document.getElementById('pubmed-container');
@@ -44,7 +47,7 @@ permalink: /publications/
                 const ids = data.esearchresult.idlist;
                 
                 if (ids.length === 0) {
-                    loading.textContent = "No publications found.";
+                    loading.textContent = "No publications found matching these criteria.";
                     return;
                 }
 
@@ -60,7 +63,7 @@ permalink: /publications/
                 const papers = data.result;
                 const idList = data.result.uids; 
                 
-                // --- NEW: Grouping Logic ---
+                // --- Grouping Logic ---
                 const papersByYear = {};
 
                 idList.forEach(id => {
@@ -86,27 +89,29 @@ permalink: /publications/
                 let htmlContent = '';
 
                 sortedYears.forEach(year => {
-                    // Add Year Heading
                     htmlContent += `<h2 style="color: #00A9B7; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 2.5rem;">${year}</h2>`;
                     htmlContent += `<ul style="list-style: none; padding: 0;">`;
 
-                    // Loop through papers in this year
                     papersByYear[year].forEach(paper => {
                         // Format Authors
                         let authors = paper.authors.map(a => a.name).join(", ");
-                        if (paper.authors.length > 10) {
-                            authors = paper.authors.slice(0, 10).map(a => a.name).join(", ") + ", et al.";
+                        
+                        // Bold your name in the list
+                        authors = authors.replace("Derakhshani H", "<strong>Derakhshani H</strong>");
+
+                        if (paper.authors.length > 15) {
+                            authors = paper.authors.slice(0, 15).map(a => a.name).join(", ") + ", et al.";
                         }
 
                         htmlContent += `
                             <li style="margin-bottom: 1.5rem;">
-                                <div style="font-weight: bold; margin-bottom: 0.25rem; font-size: 1.05rem;">
+                                <div style="font-weight: 500; margin-bottom: 0.25rem; font-size: 1.05rem; line-height: 1.4;">
                                     ${authors}. (${year}). 
                                     <span style="font-style: italic;">${paper.title}</span>
                                 </div>
                                 <div style="font-size: 0.95rem; color: #555;">
                                     <em>${paper.fulljournalname}</em>. 
-                                    <a href="https://doi.org/${paper.elocationid}" target="_blank" style="color: #002F5F; margin-left: 8px; font-size: 0.85rem;">[View Article]</a>
+                                    <a href="https://doi.org/${paper.elocationid}" target="_blank" style="color: #002F5F; margin-left: 8px; font-size: 0.85rem; font-weight: bold;">[View Article]</a>
                                 </div>
                             </li>
                         `;
