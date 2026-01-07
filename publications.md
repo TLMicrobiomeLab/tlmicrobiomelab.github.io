@@ -28,9 +28,9 @@ permalink: /publications/
         // =================================================================
         // CONFIGURATION: SMARTER SEARCH FILTER
         // =================================================================
-        // This query finds "Derakhshani H" BUT filters for your specific keywords
-        // to exclude the psychiatrist (Horeyeh) and ensure your papers are found.
-        const searchTerm = 'Derakhshani H[Author] AND (Hooman[Author] OR microbiome OR microbiota OR rumen OR swine OR bovine OR pig OR cattle OR livestock OR fermentation OR "Animal Science")'; 
+        // This query finds "Derakhshani H" BUT filters for specific keywords
+        // to exclude the psychiatrist (Horeyeh) and ensure papers are found.
+        const searchTerm = 'Derakhshani H[Author] AND (Hooman[Author])'; 
         
         const maxResults = 200; // Increased to ensure we don't "miss" papers if the list is long
         // =================================================================
@@ -96,7 +96,7 @@ permalink: /publications/
                         // Format Authors
                         let authors = paper.authors.map(a => a.name).join(", ");
                         
-                        // Bold your name in the list
+                        // Bold name in the list
                         authors = authors.replace("Derakhshani H", "<strong>Derakhshani H</strong>");
 
                         if (paper.authors.length > 15) {
