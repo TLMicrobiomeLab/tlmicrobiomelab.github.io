@@ -32,18 +32,26 @@ permalink: /publications/
         const manualPapers = [
             {
                 title: "Effects of dietary fiber on fecal microbiota of grower–finisher pig offspring from parents with divergent estimated breeding value for feed conversion ratio.",
-                authors: ["P Azevedo", "S Jin", "Y Wu", "H Derakhshani", "H Xu", "H Lei", "L Verschuren", "C Yang"],
+                authors: ["Azevedo P", "Jin S", "Wu Y", "Derakhshani H", "Xu H", "Lei H", "Verschuren L", "Yang C"],
                 year: "2025",
                 journal: "Canadian Journal of Animal Science",
                 link: "https://cdnsciencepub.com/doi/10.1139/cjas-2024-0100", // Optional
                 type: "Research Article" // Optional label
             },
             {
-                title: "Selection for feed efficiency improves production traits and digestibility and its relationship to the fecal microbiota in both Large White dam and sire lines",
-                authors: ["L Beens", "E Rajendiran", "H Derakhshani", "G Mejicanos", "C Yang", "M Nyachoti", "H Lei", "L Verschuren", "R Bergsma", "A Rodas-Gonzalez"],
+                title: "Selection for feed efficiency improves production traits and digestibility and its relationship to the fecal microbiota in both Large White dam and sire lines.",
+                authors: ["Beens L", "Rajendiran E", "Derakhshani H", "Mejicanos G", "Yang C", "Nyachoti M", "Lei H", "Verschuren L", "Bergsma R", "Rodas-Gonzalez A"],
                 year: "2024",
                 journal: "Canadian Journal of Animal Science",
                 link: "https://cdnsciencepub.com/doi/10.1139/cjas-2024-0009", // Optional
+                type: "Research Article" // Optional label
+            },
+            {
+                title: "Metagenomic comparison of effects of mesophilic and thermophilic manure anaerobic digestion on antimicrobial resistance genes and mobile genetic elements.",
+                authors: ["Flores-Orozco D", "Levin D", "Kumar A", "Sparling R", "Derakhshani H", "Cicek N"],
+                year: "2024",
+                journal: "Environmental Advances",
+                link: "https://www.sciencedirect.com/science/article/pii/S2666765723001308", // Optional
                 type: "Research Article" // Optional label
             }
             // Add more here using the same format { ... },
