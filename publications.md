@@ -6,35 +6,121 @@ permalink: /publications/
 
 <div class="content-wrapper">
 
-<h1>Selected Publications</h1>
-<p style="margin-bottom: 2rem;">A complete list of our work can be found on <a href="https://scholar.google.ca/citations?user=-o-BMS4AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>.</p>
+<h1>Publications</h1>
+<p style="margin-bottom: 2rem;">
+    This list is automatically retrieved from PubMed.
+    <br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Derakhshani+H%5BAuthor%5D" target="_blank" style="font-size: 0.9rem;">View on PubMed &rarr;</a>
+</p>
 
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
 
-<h2 style="color: #00A9B7;">2025</h2>
-<ul style="line-height: 1.6;">
-    <li style="margin-bottom: 1rem;">
-        <strong>Rahman N</strong>, McCullough T, Orozco DF,  Walkowiak S, Farzan A, Shekarriz S, Surette MG, Cicek N, Derakhshani H. (2025). 
-        <em>Genomic characterization of antimicrobial resistance and mobile genetic elements in swine gut bacteria isolated from a Canadian research farm.</em> 
-        <br>
-        <span style="color: #666;">Animal Microbiome, 7(1), 66.</span>
-    </li>
-    <li style="margin-bottom: 1rem;">
-        <strong>Azevedo P.</strong>, Jin S, Wu Y, Derakhshani H, Xu H, Lei H, Verschuren L, Yang C. (2025). 
-        <em>Effects of dietary fiber on fecal microbiota of grower–finisher pig offspring from parents with divergent estimated breeding value for feed conversion ratio.</em> 
-        <br>
-        <span style="color: #666;">Canadian Journal of Animal Science, 105, 1-11.</span>
-    </li>
-</ul>
+<div id="loading-message" style="color: #666; font-style: italic;">
+    Loading publications from PubMed...
+</div>
 
-<h2 style="color: #00A9B7; margin-top: 2rem;">2024</h2>
-<ul style="line-height: 1.6;">
-    <li style="margin-bottom: 1rem;">
-        <strong>Alizadeh A</strong>, Derakhshani H, Plaizier JC. (2024). 
-        <em>252 Evaluating the impact of inclusion of field pea (Pisum sativum) on rumen fermentation profile, production parameters, and composition of rumen bacterial community of dairy cattle.</em> 
-        <br>
-        <span style="color: #666;">Journal of Animal Science, 102(3), 354.</span>
-    </li>
-</ul>
+<div id="pubmed-container"></div>
 
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // =================================================================
+        // CONFIGURATION
+        // =================================================================
+        const searchTerm = "Derakhshani H[Author]"; 
+        const maxResults = 100; // Increased limit to ensure we get older years too
+        // =================================================================
+
+        const container = document.getElementById('pubmed-container');
+        const loading = document.getElementById('loading-message');
+
+        // 1. Search for IDs
+        const searchUrl = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=${encodeURIComponent(searchTerm)}&retmode=json&retmax=${maxResults}&sort=date`;
+
+        fetch(searchUrl)
+            .then(response => response.json())
+            .then(data => {
+                const ids = data.esearchresult.idlist;
+                
+                if (ids.length === 0) {
+                    loading.textContent = "No publications found.";
+                    return;
+                }
+
+                // 2. Fetch Details for those IDs
+                const summaryUrl = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=${ids.join(',')}&retmode=json`;
+                
+                return fetch(summaryUrl);
+            })
+            .then(response => response ? response.json() : null)
+            .then(data => {
+                if (!data) return;
+
+                const papers = data.result;
+                const idList = data.result.uids; 
+                
+                // --- NEW: Grouping Logic ---
+                const papersByYear = {};
+
+                idList.forEach(id => {
+                    const paper = papers[id];
+                    if (!paper.title) return; 
+
+                    // Extract Year safely
+                    let year = "Unknown";
+                    if (paper.pubdate) {
+                        year = paper.pubdate.substring(0, 4);
+                    }
+
+                    if (!papersByYear[year]) {
+                        papersByYear[year] = [];
+                    }
+                    papersByYear[year].push(paper);
+                });
+
+                // Sort years descending (2025, 2024, ...)
+                const sortedYears = Object.keys(papersByYear).sort().reverse();
+
+                // Build HTML
+                let htmlContent = '';
+
+                sortedYears.forEach(year => {
+                    // Add Year Heading
+                    htmlContent += `<h2 style="color: #00A9B7; border-bottom: 2px solid #eee; padding-bottom: 0.5rem; margin-top: 2.5rem;">${year}</h2>`;
+                    htmlContent += `<ul style="list-style: none; padding: 0;">`;
+
+                    // Loop through papers in this year
+                    papersByYear[year].forEach(paper => {
+                        // Format Authors
+                        let authors = paper.authors.map(a => a.name).join(", ");
+                        if (paper.authors.length > 10) {
+                            authors = paper.authors.slice(0, 10).map(a => a.name).join(", ") + ", et al.";
+                        }
+
+                        htmlContent += `
+                            <li style="margin-bottom: 1.5rem;">
+                                <div style="font-weight: bold; margin-bottom: 0.25rem; font-size: 1.05rem;">
+                                    ${authors}. (${year}). 
+                                    <span style="font-style: italic;">${paper.title}</span>
+                                </div>
+                                <div style="font-size: 0.95rem; color: #555;">
+                                    <em>${paper.fulljournalname}</em>. 
+                                    <a href="https://doi.org/${paper.elocationid}" target="_blank" style="color: #002F5F; margin-left: 8px; font-size: 0.85rem;">[View Article]</a>
+                                </div>
+                            </li>
+                        `;
+                    });
+
+                    htmlContent += `</ul>`;
+                });
+
+                container.innerHTML = htmlContent;
+                loading.style.display = 'none';
+            })
+            .catch(error => {
+                console.error('Error fetching PubMed data:', error);
+                loading.textContent = "Error loading publications. Please try refreshing.";
+            });
+    });
+</script>
