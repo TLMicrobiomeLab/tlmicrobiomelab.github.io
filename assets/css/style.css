@@ -320,3 +320,64 @@ img[alt="Lab Environment"] {
 .carousel-btn:hover {
     color: var(--accent-color);
 }
+
+/* =========================================
+   9. DROPDOWN MENU STYLES
+   ========================================= */
+/* The container for the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* The hidden menu box */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 100;
+    top: 100%; /* Positions it right below the text */
+    left: 0;
+    border-top: 3px solid var(--accent-color); /* Teal top border */
+    border-radius: 0 0 4px 4px;
+}
+
+/* Show the menu when hovering over the parent */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: #333 !important; /* Force dark text */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-content a:hover {
+    background-color: var(--light-gray);
+    color: var(--primary-color) !important;
+    border-left: 4px solid var(--primary-color);
+}
+
+/* MOBILE ADJUSTMENT: Center the dropdown on phones */
+@media (max-width: 768px) {
+    .dropdown-content {
+        position: static;
+        box-shadow: none;
+        border: 1px solid #eee;
+        text-align: center;
+        width: 100%;
+    }
+    .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
