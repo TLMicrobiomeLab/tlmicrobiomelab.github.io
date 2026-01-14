@@ -22,8 +22,8 @@ permalink: /past-members/
     </div>
     
     <div>
-        <h3 style="margin-top: 0; color: #002F5F;">Dr. Daniel Flores Orozco</h3>
-        <p style="color: #666; margin-bottom: 0.5rem;"><em>Former Postdoctoral Fellow</em></p>
+        <h3 style="margin-top: 0; color: #00A9B7;">Dr. Daniel Flores Orozco</h3>
+        <p style="color: #666; margin-bottom: 0.5rem;"><em>Postdoctoral Fellow</em></p>
         
         <p><strong>Current Position:</strong> Data Analyst, THRiVE Discovery Lab, University of Manitoba</p>
     </div>
