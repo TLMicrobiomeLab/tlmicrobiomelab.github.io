@@ -11,7 +11,7 @@ permalink: /past-members/
     We are proud of our alumni and their contributions to the lab.
 </p>
 
-<hr style="border: 0; border-top: 1px solid #A9A9A9; margin-bottom: 2rem;">
+<hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
 
 <div class="profile-card">
     <div class="profile-img-container">
