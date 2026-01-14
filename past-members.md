@@ -17,7 +17,8 @@ permalink: /past-members/
     <div class="profile-img-container">
         <img src="{{ '/images/daniel.png' | relative_url }}" 
              alt="Dr. Daniel Flores Orozco" 
-             loading="lazy" 
+             loading="lazy"
+             style="border: none !important;"
              onerror="this.src='https://via.placeholder.com/150?text=DFO'">
     </div>
     
