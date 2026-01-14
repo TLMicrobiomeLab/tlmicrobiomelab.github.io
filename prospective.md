@@ -12,7 +12,7 @@ permalink: /prospective/
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 3rem;">
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #366372;">Graduate Students (MSc & PhD)</h2>
+    <h2 style="color: #00A9B7;">Graduate Students (MSc & PhD)</h2>
     <p>We accept graduate students through the Department of Animal Science at the University of Manitoba. Candidates should have a strong background in:</p>
     <ul>
         <li>Molecular Microbiology or Animal Science</li>
@@ -23,7 +23,7 @@ permalink: /prospective/
 </div>
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #366372;">Undergraduate Students</h2>
+    <h2 style="color: #00A9B7;">Undergraduate Students</h2>
     <p>We offer opportunities for undergraduate summer research awards (USRA) and honors thesis projects. This is a great way to gain hands-on experience in:</p>
     <ul>
         <li>Standard molecular biology techniques</li>
@@ -35,7 +35,7 @@ permalink: /prospective/
 </div>
 
 <div style="margin-bottom: 3rem;">
-    <h2 style="color: #366372;">Postdoctoral Fellows</h2>
+    <h2 style="color: #00A9B7;">Postdoctoral Fellows</h2>
     <p>Postdoctoral positions are dependent on current funding. If you have a strong publication record in microbiome science and wish to apply for external fellowships (e.g., NSERC, Mitacs), we are happy to support your application.</p>
 </div>
 
