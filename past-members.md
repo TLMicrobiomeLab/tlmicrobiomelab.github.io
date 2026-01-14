@@ -11,7 +11,7 @@ permalink: /past-members/
     We are proud of our alumni and their contributions to the lab.
 </p>
 
-<hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
+<hr style="border: 0; border-top: 1px solid #A9A9A9; margin-bottom: 2rem;">
 
 <div class="profile-card">
     <div class="profile-img-container">
@@ -23,7 +23,7 @@ permalink: /past-members/
     
     <div>
         <h3 style="margin-top: 0; color: #00A9B7;">Dr. Daniel Flores Orozco</h3>
-        <p style="color: #00A9B7; margin-bottom: 0.5rem;"><em>Postdoctoral Fellow</em></p>
+        <p style="color: #666; margin-bottom: 0.5rem;"><em>Postdoctoral Fellow</em></p>
         
         <p><strong>Current Position:</strong> Data Analyst, THRiVE Discovery Lab, University of Manitoba</p>
     </div>
