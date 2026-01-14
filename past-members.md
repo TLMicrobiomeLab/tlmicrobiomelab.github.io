@@ -7,23 +7,26 @@ permalink: /past-members/
 <div class="content-wrapper">
 
 <h1>Past Members</h1>
-<p>We are proud of our alumni and their contributions to the lab.</p>
+<p style="margin-bottom: 2rem;">
+    We are proud of our alumni and their contributions to the lab.
+</p>
 
-<table style="width:100%; border-collapse: collapse; margin-top: 2rem;">
-  <thead>
-    <tr style="background-color: #f4f7f6; text-align: left;">
-      <th style="padding: 12px; border-bottom: 2px solid #366372; color: #366372;">Name</th>
-      <th style="padding: 12px; border-bottom: 2px solid #366372; color: #366372;">Role</th>
-      <th style="padding: 12px; border-bottom: 2px solid #366372; color: #366372;">Current Position</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;"><strong>Dr. Daniel Flores Orozco</strong></td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Postdoctoral Fellow</td>
-      <td style="padding: 12px; border-bottom: 1px solid #ddd;">Data Analyst, THRiVE Discovery Lab, University of Manitoba</td>
-    </tr>
-  </tbody>
-</table>
+<hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 2rem;">
+
+<div class="profile-card">
+    <div class="profile-img-container">
+        <img src="{{ '/images/daniel.png' | relative_url }}" 
+             alt="Dr. Daniel Flores Orozco" 
+             loading="lazy" 
+             onerror="this.src='https://via.placeholder.com/150?text=DFO'">
+    </div>
+    
+    <div>
+        <h3 style="margin-top: 0; color: #002F5F;">Dr. Daniel Flores Orozco</h3>
+        <p style="color: #666; margin-bottom: 0.5rem;"><em>Former Postdoctoral Fellow</em></p>
+        
+        <p><strong>Current Position:</strong> Data Analyst, THRiVE Discovery Lab, University of Manitoba</p>
+    </div>
+</div>
 
 </div>
