@@ -25,9 +25,8 @@ permalink: /events/
         <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 July 15, 2025</p>
         
         <p>
-            We had a great time celebrating a successful year of research at Assiniboine Park! 
-            It was a wonderful opportunity for the new students to meet the alumni. 
-            Dr. Derakhshani won the burger-flipping contest (controversial decision).
+            We had a great time celebrating a successful year of research! 
+            It was a wonderful opportunity for everyone to get together and chat about topics beyond science.
         </p>
         <p>
             Looking forward to next year!
