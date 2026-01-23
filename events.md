@@ -22,7 +22,7 @@ permalink: /events/
 
     <div style="flex: 1; min-width: 300px;">
         <h2 style="margin-top: 0; color: #002F5F;">Annual Holiday Party 2025</h2>
-        <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 July 15, 2025</p>
+        <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 December 18, 2025</p>
         
         <p>
             We had a great time celebrating a successful year of research! 
@@ -46,7 +46,7 @@ permalink: /events/
 
     <div style="flex: 1; min-width: 300px;">
         <h2 style="margin-top: 0; color: #002F5F;">Presentation at CSM 2025</h2>
-        <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 November 2024</p>
+        <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 June 2025</p>
         
         <p>
             Larissa presented her latest findings on "the diversity of rumen gut microbes and their role in methanogenesis" at The Canadian Society of Microbiologists conference. Great reception and interesting questions 
