@@ -16,7 +16,7 @@ permalink: /events/
              alt="Event Title" 
              style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
         <div style="font-size: 0.85rem; color: #888; margin-top: 5px; text-align: center;">
-            📸 Lab BBQ, Summer 2025
+            📸 Lab Holiday Party, December 2025
         </div>
     </div>
 
