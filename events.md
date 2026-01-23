@@ -12,7 +12,7 @@ permalink: /events/
 <div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 3rem; flex-wrap: wrap;">
     
     <div style="flex: 0 0 300px;">
-        <img src="{{ '/images/placeholder.png' | relative_url }}" 
+        <img src="{{ '/images/holiday2025.png' | relative_url }}" 
              alt="Event Title" 
              style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
         <div style="font-size: 0.85rem; color: #888; margin-top: 5px; text-align: center;">
@@ -21,7 +21,7 @@ permalink: /events/
     </div>
 
     <div style="flex: 1; min-width: 300px;">
-        <h2 style="margin-top: 0; color: #002F5F;">Annual Lab Summer BBQ</h2>
+        <h2 style="margin-top: 0; color: #002F5F;">Annual Holiday Party 2025</h2>
         <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 July 15, 2025</p>
         
         <p>
@@ -40,18 +40,17 @@ permalink: /events/
 <div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 3rem; flex-wrap: wrap;">
     
     <div style="flex: 0 0 300px;">
-        <img src="{{ '/images/placeholder.png' | relative_url }}" 
+        <img src="{{ '/images/larissa.png' | relative_url }}" 
              alt="Conference" 
              style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
     </div>
 
     <div style="flex: 1; min-width: 300px;">
-        <h2 style="margin-top: 0; color: #002F5F;">Presentation at ASAS 2024</h2>
+        <h2 style="margin-top: 0; color: #002F5F;">Presentation at CSM 2025</h2>
         <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 November 2024</p>
         
         <p>
-            Larissa presented her latest findings on "Swine Gut Health Interventions" at the 
-            American Society of Animal Science conference. Great reception and interesting questions 
+            Larissa presented her latest findings on "the diversity of rumen gut microbes and their role in methanogenesis" at The Canadian Society of Microbiologists conference. Great reception and interesting questions 
             from the audience!
         </p>
     </div>
