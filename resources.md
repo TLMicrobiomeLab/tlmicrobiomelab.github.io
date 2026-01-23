@@ -8,7 +8,7 @@ permalink: /resources/
 
 <h1>Lab Resources</h1>
 <p style="margin-bottom: 2rem;">
-    A collection of bioinformatics tools, pipelines, and interactive Shiny apps developed by the TLMRL.
+    A collection of bioinformatics tools, pipelines, and interactive Shiny apps developed by the TLMR Lab.
 </p>
 
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 3rem;">
