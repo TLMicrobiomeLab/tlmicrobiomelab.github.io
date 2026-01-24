@@ -43,11 +43,14 @@ permalink: /projects/
         <li>Using multi-omics to discover novel biomarkers for feed efficiency.</li>
     </ul>
 
-    <div style="margin-top: 2.5rem; border-top: 1px dashed #ddd; padding-top: 1.5rem;">
-        <h3 style="margin-top: 0; color: #002F5F;">Rumen Biobank Construction</h3>
+    <div style="margin-top: 2rem; margin-left: 1.5rem; padding-left: 1.5rem; border-left: 4px solid #eee;">
+        
+        <h3 style="margin-top: 0; color: #002F5F; font-size: 1.25rem;">
+            Rumen Biobank Construction
+        </h3>
+        
         <p>
-            We are currently isolating and characterizing novel rumen microbes to build a comprehensive biobank. 
-            This resource allows us to screen for methanogen-inhibiting bacteria using various culture media.
+            As a key component of our mitigation strategy, we are isolating and characterizing novel rumen microbes to build a comprehensive biobank. This resource allows us to screen for methanogen-inhibiting bacteria.
         </p>
 
         <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.5rem;">
