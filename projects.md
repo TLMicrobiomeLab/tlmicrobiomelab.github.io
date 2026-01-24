@@ -53,27 +53,37 @@ permalink: /projects/
             As a key component of our mitigation strategy, we are isolating and characterizing novel rumen microbes to build a comprehensive biobank. This resource allows us to screen for methanogen-inhibiting bacteria.
         </p>
 
-        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.5rem;">
+        <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 1.5rem;">
             
-            <div style="flex: 1; min-width: 250px;">
-                <img src="{{ '/images/plate-1.png' | relative_url }}" 
-                     alt="Rumen Culture Plates" 
-                     style="width: 100%; height: auto; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                    Anaerobic culture plates with selective media
-                </p>
+            <div style="flex: 1 1 180px;"> <img src="{{ '/images/plate-1.png' | relative_url }}" alt="Plate 1" 
+                     style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;">
             </div>
 
-            <div style="flex: 1; min-width: 250px;">
-                <img src="{{ '/images/plate-2.png' | relative_url }}" 
-                     alt="Microbial Colonies" 
-                     style="width: 100%; height: auto; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-                <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                    Diverse colony morphology from rumen samples
-                </p>
+            <div style="flex: 1 1 180px;">
+                <img src="{{ '/images/plate-2.png' | relative_url }}" alt="Plate 2" 
+                     style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;">
+            </div>
+
+            <div style="flex: 1 1 180px;">
+                <img src="{{ '/images/plate-3.png' | relative_url }}" alt="Plate 3" 
+                     style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;">
+            </div>
+
+            <div style="flex: 1 1 180px;">
+                <img src="{{ '/images/plate-4.png' | relative_url }}" alt="Plate 4" 
+                     style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;">
+            </div>
+
+            <div style="flex: 1 1 180px;">
+                <img src="{{ '/images/plate-5.png' | relative_url }}" alt="Plate 5" 
+                     style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd;">
             </div>
 
         </div>
+        <p style="font-size: 0.85rem; color: #666; font-style: italic; margin-top: 10px;">
+            Examples of anaerobic culture plates showing diverse microbial morphology.
+        </p>
+
     </div>
 </div>
 
