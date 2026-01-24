@@ -42,6 +42,36 @@ permalink: /projects/
         <li>Testing feed additives (e.g., biochar, tannins) that inhibit methanogens without hurting digestion.</li>
         <li>Using multi-omics to discover novel biomarkers for feed efficiency.</li>
     </ul>
+
+    <div style="margin-top: 2.5rem; border-top: 1px dashed #ddd; padding-top: 1.5rem;">
+        <h3 style="margin-top: 0; color: #002F5F;">Rumen Biobank Construction</h3>
+        <p>
+            We are currently isolating and characterizing novel rumen microbes to build a comprehensive biobank. 
+            This resource allows us to screen for methanogen-inhibiting bacteria using various culture media.
+        </p>
+
+        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.5rem;">
+            
+            <div style="flex: 1; min-width: 250px;">
+                <img src="{{ '/images/plate-1.png' | relative_url }}" 
+                     alt="Rumen Culture Plates" 
+                     style="width: 100%; height: auto; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                    Anaerobic culture plates with selective media
+                </p>
+            </div>
+
+            <div style="flex: 1; min-width: 250px;">
+                <img src="{{ '/images/plate-2.png' | relative_url }}" 
+                     alt="Microbial Colonies" 
+                     style="width: 100%; height: auto; border-radius: 8px; border: 1px solid #eee; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                    Diverse colony morphology from rumen samples
+                </p>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 </div>
