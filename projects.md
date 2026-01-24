@@ -50,7 +50,7 @@ permalink: /projects/
         </h3>
         
         <p>
-            As a key component of our mitigation strategy, we are isolating and characterizing novel rumen microbes to build a comprehensive biobank. This resource allows us to screen for methanogen-inhibiting bacteria.
+            As a key component of our mitigation strategy, we are isolating and characterizing novel rumen microbes to build a comprehensive biobank.
         </p>
 
         <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 1.5rem;">
