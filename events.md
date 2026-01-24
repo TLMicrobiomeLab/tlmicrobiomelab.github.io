@@ -41,8 +41,7 @@ permalink: /events/
     <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 June 2025</p>
     
     <p style="max-width: 800px;">
-        The TLMR team had a strong presence at the <strong>Canadian Society of Microbiologists (CSM)</strong> conference 2025! 
-        Our members presented their latest research through a series of poster presentations, covering diverse topics from antimicrobial resistance to rumen and swine gut microbiome.
+        The TLMR team had a strong presence at the <strong>Canadian Society of Microbiologists (CSM)</strong> conference 2025! Our members presented their latest research through a series of poster presentations, covering diverse topics from antimicrobial resistance to rumen and swine gut microbiome.
     </p>
     <p style="max-width: 800px;">
         It was a fantastic opportunity to share our findings, receive valuable feedback, and connect with the wider microbiology community. Great reception and interesting questions from the audience!
