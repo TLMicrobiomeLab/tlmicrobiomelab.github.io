@@ -13,16 +13,16 @@ permalink: /resources/
 
 <hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 3rem;">
 
-<h2 style="color: #002F5F; margin-bottom: 1.5rem;">Interactive Genomic Atlases</h2>
+<h2 style="color: #002F5F; margin-bottom: 1.5rem;">Interactive Databases</h2>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
 
     <div style="border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; background-color: #fafafa; position: relative;">
         <span style="position: absolute; top: 10px; right: 10px; background-color: #666; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase;">Coming Soon</span>
         
-        <h3 style="margin-top: 0; color: #00A9B7;">🐷 Swine Gut Genomic Atlas</h3>
+        <h3 style="margin-top: 0; color: #00A9B7;">🐷 PiGICo Explorer</h3>
         <p style="font-size: 0.9rem; color: #555; line-height: 1.6;">
-            This interactive platform provides high-resolution functional profiling of the swine gut microbiome, leveraging the extensive PiGICo genomic resource. It facilitates the comparative analysis of taxonomic diversity and metabolic potential, allowing users to query specific functional traits such as antimicrobial resistance determinants, secondary metabolite biosynthetic pathways, and virulence factors across diverse swine populations.
+            This interactive companion to the PiGICo (Pig Gut Integrated Cohort) resource enables high-resolution functional profiling of the swine gut microbiome. It facilitates comparative analyses of taxonomic diversity and metabolic potential, allowing users to query specific functional traits—including antimicrobial resistance determinants, secondary metabolite biosynthetic pathways, and virulence factors—across diverse swine populations.
         </p>
         <span style="font-size: 0.85rem; color: #999; cursor: not-allowed;">Launch App (In Development)</span>
     </div>
@@ -30,9 +30,9 @@ permalink: /resources/
     <div style="border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; background-color: #fafafa; position: relative;">
         <span style="position: absolute; top: 10px; right: 10px; background-color: #666; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase;">Coming Soon</span>
 
-        <h3 style="margin-top: 0; color: #00A9B7;">🐮 Rumen Microbiome Functional Atlas</h3>
+        <h3 style="margin-top: 0; color: #00A9B7;">🐮 RuMiDB (Rumen Microbiome Database)</h3>
         <p style="font-size: 0.9rem; color: #555; line-height: 1.6;">
-            Designed for the exploration of the rumen microbial ecosystem, this application offers a detailed functional annotation of metagenome-assembled genomes from bovine sources. It enables the targeted investigation of metabolic redundancy and specialization, providing curated insights into carbohydrate depolymerization machinery, methanogenesis pathways, and the diverse biosynthetic capacity of the rumen microbiota.
+            Designed for the exploration of the rumen microbial ecosystem, this database offers detailed functional annotations of mirobial genomes from bovine sources. It enables the targeted investigation of metabolic redundancy and specialization, providing curated insights into carbohydrate depolymerization machinery, methanogenesis pathways, and the biosynthetic capacity of the rumen microbiota.
         </p>
         <span style="font-size: 0.85rem; color: #999; cursor: not-allowed;">Access Database (In Development)</span>
     </div>
