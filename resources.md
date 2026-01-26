@@ -22,14 +22,8 @@ permalink: /resources/
         
         <h3 style="margin-top: 0; color: #00A9B7;">🐷 Swine Gut Genomic Atlas</h3>
         <p style="font-size: 0.9rem; color: #555; line-height: 1.6;">
-            A comprehensive platform for the exploration of genomic features in the swine gut microbiome.
+            This interactive platform provides high-resolution functional profiling of the swine gut microbiome, leveraging the extensive PiGICo genomic resource. It facilitates the comparative analysis of taxonomic diversity and metabolic potential, allowing users to query specific functional traits such as antimicrobial resistance determinants, secondary metabolite biosynthetic pathways, and virulence factors across diverse swine populations.
         </p>
-        <ul style="font-size: 0.85rem; color: #666; margin-bottom: 1rem; padding-left: 1.2rem;">
-            <li>Antimicrobial Resistance Genes (ARGs)</li>
-            <li>Carbohydrate-Active Enzymes (CAZymes)</li>
-            <li>Virulence Factors & Antimicrobial Peptides (AMPs)</li>
-            <li>Biosynthetic Gene Clusters (antiSMASH & gutSMASH)</li>
-        </ul>
         <span style="font-size: 0.85rem; color: #999; cursor: not-allowed;">Launch App (In Development)</span>
     </div>
 
@@ -38,14 +32,8 @@ permalink: /resources/
 
         <h3 style="margin-top: 0; color: #00A9B7;">🐮 Rumen Microbiome Functional Atlas</h3>
         <p style="font-size: 0.9rem; color: #555; line-height: 1.6;">
-            A searchable database providing genomic and functional annotations for rumen microbial communities.
+            Designed for the exploration of the rumen microbial ecosystem, this application offers a detailed functional annotation of metagenome-assembled genomes from bovine sources. It enables the targeted investigation of metabolic redundancy and specialization, providing curated insights into carbohydrate depolymerization machinery, methanogenesis pathways, and the diverse biosynthetic capacity of the rumen microbiota.
         </p>
-        <ul style="font-size: 0.85rem; color: #666; margin-bottom: 1rem; padding-left: 1.2rem;">
-            <li>Antimicrobial Resistance Genes (ARGs)</li>
-            <li>Carbohydrate-Active Enzymes (CAZymes)</li>
-            <li>Virulence Factors & Antimicrobial Peptides (AMPs)</li>
-            <li>Biosynthetic Gene Clusters (antiSMASH & gutSMASH)</li>
-        </ul>
         <span style="font-size: 0.85rem; color: #999; cursor: not-allowed;">Access Database (In Development)</span>
     </div>
 
