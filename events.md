@@ -15,19 +15,27 @@ permalink: /events/
     <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 May 28, 2026</p>
     
     <p style="max-width: 800px;">
-        Our lab members rolled up their sleeves (and put on their aprons) to volunteer at the <strong>Departmental BBQ Summer 2026</strong> — because apparently, we don't just study microbes, we also feed people. From manning the grill to running the registration table, the TLMR crew brought the same enthusiasm to burger-flipping as they do to bench work.
+        Our lab members rolled up their sleeves to volunteer at the <strong>Departmental BBQ Summer 2026</strong> — because apparently, we don't just run experiments in the lab, we also feed people. From manning the grill to running the registration table, the TLMR crew brought the same enthusiasm to burger-flipping as they do to bench work.
     </p>
     <p style="max-width: 800px;">
-        It was a sunny afternoon of good food, good company, and a cherry blossom tree that absolutely refused to stay out of frame. A great way to connect with the broader department community — outside of a seminar room, for once.
+        It was a sunny afternoon of good food, good company, and a crab apple tree that absolutely refused to stay out of frame. A great way to connect with the broader department community — outside of a seminar room.
     </p>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 1.5rem;">
         
+        <div>
+            <img src="{{ '/images/bbq2026/20260527_121613.jpg' | relative_url }}" alt="Lab grill crew in action" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                In action: where the science of heat transfer meets the art of not burning the patties.
+            </p>
+        </div>
+
         <div>
             <img src="{{ '/images/bbq2026/20260527_121616.jpg' | relative_url }}" alt="Lab grill crew" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Three lab members, two grills, zero hesitation. The TLMR grill squad: as precise with tongs as they are with pipettes.
+                The PI in his natural summer habitat. Turns out grant writing and grilling require the same level of focus.
             </p>
         </div>
 
@@ -35,7 +43,7 @@ permalink: /events/
             <img src="{{ '/images/bbq2026/20260527_121631.jpg' | relative_url }}" alt="Guests lining up for food" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The queue. Proof that nothing brings a department together quite like free food.
+                The queue. Proof that nothing brings a department together quite like food.
             </p>
         </div>
 
@@ -51,12 +59,12 @@ permalink: /events/
             <img src="{{ '/images/bbq2026/20260527_121801.jpg' | relative_url }}" alt="Lab members at food station" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Running the food station like a well-oiled machine — the burgers were too.
+                Food station duty: unexpectedly competitive résumé material.
             </p>
         </div>
 
         <div>
-            <img src="{{ '/images/bbq2026/20260527_124256.jpg' | relative_url }}" alt="Lab members at registration table" 
+            <img src="{{ '/images/bbq2026/20260527_124255.jpg' | relative_url }}" alt="Lab members at registration table" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
                 The registration crew: keeping the chaos organized and smiling through every ticket stub.
@@ -64,10 +72,18 @@ permalink: /events/
         </div>
 
         <div>
-            <img src="{{ '/images/bbq2026/20260527_133150.jpg' | relative_url }}" alt="TLMR group photo" 
+            <img src="{{ '/images/bbq2026/20260527_124256.jpg' | relative_url }}" alt="Lab members at registration table" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Full squad, full stomachs. The cherry blossom tree demanded to be in the photo — we let it.
+                Take two — still smiling, still organized, still no one cut the line.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/bbq2026/20260527_133146.jpg' | relative_url }}" alt="TLMR group photo" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                Full squad, full stomachs. The crab apple tree demanded to be in the photo — we let it.
             </p>
         </div>
 
