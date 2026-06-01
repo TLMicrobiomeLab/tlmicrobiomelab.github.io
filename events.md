@@ -21,16 +21,8 @@ permalink: /events/
         It was a sunny afternoon of good food, good company, and a crab apple tree that absolutely refused to stay out of frame. A great way to connect with the broader department community — outside of a seminar room.
     </p>
 
-    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 1.5rem;">
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 1.5rem;">
         
-        <div>
-            <img src="{{ '/images/bbq2026/20260527_121613.jpg' | relative_url }}" alt="Lab grill crew in action" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                In action: where the science of heat transfer meets the art of not burning the patties.
-            </p>
-        </div>
-
         <div>
             <img src="{{ '/images/bbq2026/20260527_121616.jpg' | relative_url }}" alt="Lab grill crew" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
@@ -68,14 +60,6 @@ permalink: /events/
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
                 The registration crew: keeping the chaos organized and smiling through every ticket stub.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/bbq2026/20260527_124256.jpg' | relative_url }}" alt="Lab members at registration table" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Take two — still smiling, still organized, still no one cut the line.
             </p>
         </div>
 
