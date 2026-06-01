@@ -27,7 +27,7 @@ permalink: /events/
             <img src="{{ '/images/bbq2026/20260527_121616.jpg' | relative_url }}" alt="Lab grill crew" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The PI in his natural summer habitat. Turns out grant writing and grilling require the same level of focus.
+                The PI insisted he was 'just supervising.' The tongs say otherwise.
             </p>
         </div>
 
