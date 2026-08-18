@@ -15,7 +15,7 @@ permalink: /events/
     <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 August 12, 2026</p>
     
     <p style="max-width: 800px;">
-        The lab traded incubators for sunshine and headed to the lake for our summer <strong>Beach Day</strong>. Between swimming, snacks, and a cooler that doubled as furniture, it was a proper reset before the fall term — and, as far as we can tell, the only lab activity all year that required sunscreen.
+        The lab traded incubators for sunshine and drove out to <strong>Grand Beach</strong> on the eastern shore of Lake Winnipeg for our summer beach day. Between swimming, snacks, and a cooler that doubled as furniture, it was a proper reset before the fall term — and, as far as we can tell, the only lab activity all year that required sunscreen.
     </p>
     <p style="max-width: 800px;">
         Family members came along, the chips supply was generous, and nobody mentioned sequencing depth even once. A good day.
@@ -35,7 +35,7 @@ permalink: /events/
             <img src="{{ '/images/beach2026/beach-2.jpg' | relative_url }}" alt="TLMR lab members lined up at the beach" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Full lineup, lake in the background. Sunscreen: applied. Mostly.
+                The full lineup, Lake Winnipeg stretching out behind us. Sunscreen: applied. Mostly.
             </p>
         </div>
 
@@ -58,10 +58,10 @@ permalink: /events/
     <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 July 24, 2026</p>
     
     <p style="max-width: 800px;">
-        <strong>Fatemeh Mohammadian</strong> successfully defended her MSc thesis, <em>"High-Throughput Culturing and Genomic Characterization of the Swine Gut Microbiota: Insights into Antimicrobial Biosynthesis and Therapeutic Potentials,"</em> in the Department of Animal Science. Her work combined large-scale culturing of swine gut bacteria with genomic mining for antimicrobial peptides and biosynthetic gene clusters — turning a very large plate collection into a catalogue of next-generation probiotic candidates.
+        <strong>Fatemeh Mohammadian</strong> successfully defended her MSc thesis in the Department of Animal Science, supervised by Dr. Hooman Derakhshani with advisors Dr. Chengbo Yang and Dr. Sean Walkowiak.
     </p>
     <p style="max-width: 800px;">
-        Supervised by Dr. Hooman Derakhshani, with advisors Dr. Chengbo Yang and Dr. Sean Walkowiak. The whole lab turned out to watch, and the questions were as tough as promised. Congratulations, Fatemeh — thoroughly earned.
+        Well deserved — the hard work paid off. We are proud to celebrate this important milestone and wish Fatemeh all the best in her future endeavors.
     </p>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
