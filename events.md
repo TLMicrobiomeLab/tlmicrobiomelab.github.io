@@ -11,6 +11,100 @@ permalink: /events/
 
 <div style="margin-bottom: 3rem;">
     
+    <h2 style="margin-top: 0; color: #002F5F;">Lab Beach Day 2026</h2>
+    <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 August 12, 2026</p>
+    
+    <p style="max-width: 800px;">
+        The lab traded incubators for sunshine and headed to the lake for our summer <strong>Beach Day</strong>. Between swimming, snacks, and a cooler that doubled as furniture, it was a proper reset before the fall term — and, as far as we can tell, the only lab activity all year that required sunscreen.
+    </p>
+    <p style="max-width: 800px;">
+        Family members came along, the chips supply was generous, and nobody mentioned sequencing depth even once. A good day.
+    </p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
+        
+        <div>
+            <img src="{{ '/images/beach2026/beach-1.jpg' | relative_url }}" alt="Lab group selfie on the beach" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                The obligatory group selfie. Two peace signs, zero regrets.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/beach2026/beach-2.jpg' | relative_url }}" alt="TLMR lab members lined up at the beach" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                Full lineup, lake in the background. Sunscreen: applied. Mostly.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/beach2026/beach-3.jpg' | relative_url }}" alt="Arm wrestling match on a cooler at the beach" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                A rigorous arm-wrestling trial. Sample size: 2. Cooler: load-bearing.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 3rem;">
+
+<div style="margin-bottom: 3rem;">
+    
+    <h2 style="margin-top: 0; color: #002F5F;">Congratulations, Fatemeh — MSc Thesis Defended!</h2>
+    <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 July 24, 2026</p>
+    
+    <p style="max-width: 800px;">
+        <strong>Fatemeh Mohammadian</strong> successfully defended her MSc thesis, <em>"High-Throughput Culturing and Genomic Characterization of the Swine Gut Microbiota: Insights into Antimicrobial Biosynthesis and Therapeutic Potentials,"</em> in the Department of Animal Science. Her work combined large-scale culturing of swine gut bacteria with genomic mining for antimicrobial peptides and biosynthetic gene clusters — turning a very large plate collection into a catalogue of next-generation probiotic candidates.
+    </p>
+    <p style="max-width: 800px;">
+        Supervised by Dr. Hooman Derakhshani, with advisors Dr. Chengbo Yang and Dr. Sean Walkowiak. The whole lab turned out to watch, and the questions were as tough as promised. Congratulations, Fatemeh — thoroughly earned.
+    </p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
+        
+        <div>
+            <img src="{{ '/images/defense2026/defense-1.jpg' | relative_url }}" alt="Fatemeh presenting her defense seminar" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                Mid-defense: walking the room through antimicrobial peptides across bacterial lineages.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/defense2026/defense-2.jpg' | relative_url }}" alt="Fatemeh with her supervisor and advisory committee" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                With her supervisor and advisory committee — and a very well-earned bouquet.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/defense2026/defense-3.jpg' | relative_url }}" alt="Fatemeh with her supervisor Dr. Hooman Derakhshani" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                Supervisor and student, one thesis lighter.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/defense2026/defense-4.jpg' | relative_url }}" alt="TLMR lab members celebrating after the defense" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                The TLMR crew showed up in force. No one left before the flowers.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 3rem;">
+
+<div style="margin-bottom: 3rem;">
+    
     <h2 style="margin-top: 0; color: #002F5F;">Departmental BBQ Summer 2026</h2>
     <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 May 28, 2026</p>
     
