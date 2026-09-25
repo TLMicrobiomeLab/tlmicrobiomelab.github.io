@@ -11,6 +11,57 @@ permalink: /events/
 
 <div style="margin-bottom: 3rem;">
     
+    <h2 style="margin-top: 0; color: #002F5F;">TLMR at EAAP 2026, Hamburg</h2>
+    <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 September 9, 2026</p>
+    
+    <p style="max-width: 800px;">
+        The lab crossed the Atlantic for the <strong>77th Annual Meeting of the European Federation of Animal Science (EAAP)</strong> in Hamburg, Germany. Dr. Hooman Derakhshani, <strong>Larissa Scott</strong>, and <strong>Nahidur Rahman</strong> represented TLMR at one of the largest gatherings of animal scientists in the world.
+    </p>
+    <p style="max-width: 800px;">
+        Larissa gave an oral presentation of her MSc research, <em>"An Expanded Isolate and Genome Collection of Rumen Bacteria Reveals Microbial Signatures of Efficiency in Cattle,"</em> to a full room. A big congratulations to Larissa on a confident first international talk, and thanks to everyone in the lab whose culturing and sequencing work made the dataset possible.
+    </p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
+        
+        <div>
+            <img src="{{ '/images/eaap2026/eaap-4.jpg' | relative_url }}" alt="Larissa Scott presenting the title slide of her talk at EAAP 2026" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                Larissa opening her talk on rumen bacterial isolates and feed efficiency in cattle.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/eaap2026/eaap-3.jpg' | relative_url }}" alt="Larissa Scott at the podium on her acknowledgements slide" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                The acknowledgements slide, with the whole lab named. Questions handled with a smile.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/eaap2026/eaap-2.jpg' | relative_url }}" alt="Dr. Hooman Derakhshani and Larissa Scott at EAAP 2026" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                Supervisor and student, post-talk and visibly relieved.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/eaap2026/eaap-1.jpg' | relative_url }}" alt="Nahidur Rahman, Larissa Scott, and Dr. Hooman Derakhshani at EAAP 2026" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                The Hamburg delegation: Nahidur, Larissa, and Dr. Derakhshani, badges on.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 3rem;">
+
+<div style="margin-bottom: 3rem;">
+    
     <h2 style="margin-top: 0; color: #002F5F;">Lab Beach Day 2026</h2>
     <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 August 12, 2026</p>
     
