@@ -15,10 +15,10 @@ permalink: /events/
     <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 September 9, 2026</p>
     
     <p style="max-width: 800px;">
-        The lab crossed the Atlantic for the <strong>77th Annual Meeting of the European Federation of Animal Science (EAAP)</strong> in Hamburg, Germany. Dr. Hooman Derakhshani, <strong>Larissa Scott</strong>, and <strong>Nahidur Rahman</strong> represented TLMR at one of the largest gatherings of animal scientists in the world.
+        The lab crossed the Atlantic for the <strong>77th Annual Meeting of the European Federation of Animal Science (EAAP)</strong> in Hamburg, Germany. Dr. Hooman Derakhshani, <strong>Larissa Scott</strong>, and <strong>Nahidur Rahman</strong> represented TLMR Lab at one of the largest gatherings of animal scientists in the world.
     </p>
     <p style="max-width: 800px;">
-        Both students gave oral presentations. <strong>Larissa</strong> presented her MSc work on an expanded collection of rumen bacterial isolates and genomes, and how this resource reveals microbial signatures of feed efficiency in cattle. <strong>Nahidur</strong> presented his PhD research on antimicrobial resistance in the dairy industry from a One Health perspective. It was the first international conference for both of them, and they handled it with confidence. Congratulations, Larissa and Nahidur!
+        Both Larissa and Nahidur took the stage with oral presentations. <strong>Larissa</strong> presented her MSc work on an expanded collection of rumen bacterial isolates and genomes, and how this resource reveals microbial signatures of feed efficiency in cattle. <strong>Nahidur</strong> presented his PhD research on antimicrobial resistance in the dairy industry from a One Health perspective. It was the first international conference for both of them, and they handled it with confidence. Congratulations, Larissa and Nahidur!
     </p>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
@@ -35,7 +35,7 @@ permalink: /events/
             <img src="{{ '/images/eaap2026/eaap-3.jpg' | relative_url }}" alt="Larissa Scott at the podium on her acknowledgements slide" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The acknowledgements slide, with the whole lab named.
+                Questions handled with a smile.
             </p>
         </div>
 
