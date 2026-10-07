@@ -1,72 +1,63 @@
 ---
 layout: default
 title: Resources
+description: Bioinformatics tools, pipelines, and interactive genomic databases developed by the TLMR Lab.
 permalink: /resources/
 ---
 
-<div class="content-wrapper">
-
-<h1>Lab Resources</h1>
-<p style="margin-bottom: 2rem;">
-    A collection of bioinformatics tools, pipelines, and interactive genomic databases developed by the TLMRL.
-</p>
-
-<hr style="border: 0; border-top: 1px solid #ddd; margin-bottom: 3rem;">
-
-<h2 style="color: #002F5F; margin-bottom: 1.5rem;">Interactive Databases</h2>
-
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
-
-    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; background-color: #fafafa; position: relative;">
-        <span style="position: absolute; top: 10px; right: 10px; background-color: #666; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase;">Coming Soon</span>
-        
-        <h3 style="margin-top: 0; color: #00A9B7;">🐷 PiGICo Explorer</h3>
-        <p style="font-size: 0.9rem; color: #555; line-height: 1.6;">
-            This interactive companion to the PiGICo (Pig Gut Integrated Cohort) resource enables high-resolution functional profiling of the swine gut microbiome. It facilitates comparative analyses of taxonomic diversity and metabolic potential, allowing users to query specific functional traits—including antimicrobial resistance determinants, secondary metabolite biosynthetic pathways, and virulence factors—across diverse swine populations.
-        </p>
-        <span style="font-size: 0.85rem; color: #999; cursor: not-allowed;">Launch App (In Development)</span>
+<div class="container">
+    <div class="page-header">
+        <span class="eyebrow">Resources</span>
+        <h1>Tools &amp; Databases</h1>
+        <p class="lead">A collection of bioinformatics tools, pipelines, and interactive genomic databases developed by the TLMR Lab.</p>
     </div>
 
-    <div style="border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; background-color: #fafafa; position: relative;">
-        <span style="position: absolute; top: 10px; right: 10px; background-color: #666; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase;">Coming Soon</span>
+    <section class="section" style="padding-top: 0;">
+        <div class="section-head">
+            <h2>Interactive Databases</h2>
+        </div>
+        <div class="grid grid-2">
+            <div class="card resource-card">
+                <span class="tag tag-soon">Coming soon</span>
+                <span class="emoji" aria-hidden="true">🐷</span>
+                <h3>PiGICo Explorer</h3>
+                <p>This interactive companion to the PiGICo (Pig Gut Integrated Cohort) resource enables high-resolution functional profiling of the swine gut microbiome. It facilitates comparative analyses of taxonomic diversity and metabolic potential, allowing users to query specific functional traits, including antimicrobial resistance determinants, secondary metabolite biosynthetic pathways, and virulence factors, across diverse swine populations.</p>
+                <div class="actions"><span class="disabled-link">Launch app (in development)</span></div>
+            </div>
 
-        <h3 style="margin-top: 0; color: #00A9B7;">🐮 RuMiDB (Rumen Microbiome Database)</h3>
-        <p style="font-size: 0.9rem; color: #555; line-height: 1.6;">
-            Designed for the exploration of the rumen microbial ecosystem, this database offers detailed functional annotations of mirobial genomes from bovine sources. It enables the targeted investigation of metabolic redundancy and specialization, providing curated insights into carbohydrate depolymerization machinery, methanogenesis pathways, and the biosynthetic capacity of the rumen microbiota.
-        </p>
-        <span style="font-size: 0.85rem; color: #999; cursor: not-allowed;">Access Database (In Development)</span>
-    </div>
+            <div class="card resource-card">
+                <span class="tag tag-soon">Coming soon</span>
+                <span class="emoji" aria-hidden="true">🐮</span>
+                <h3>RuMiDB</h3>
+                <p class="muted small" style="margin-top: -0.5rem;">Rumen Microbiome Database</p>
+                <p>Designed for the exploration of the rumen microbial ecosystem, this database offers detailed functional annotations of microbial genomes from bovine sources. It enables the targeted investigation of metabolic redundancy and specialization, providing curated insights into carbohydrate depolymerization machinery, methanogenesis pathways, and the biosynthetic capacity of the rumen microbiota.</p>
+                <div class="actions"><span class="disabled-link">Access database (in development)</span></div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <section class="section" style="padding-top: 0;">
+        <div class="section-head">
+            <h2>Bioinformatics Tools &amp; Pipelines</h2>
+        </div>
+        <div class="grid grid-2">
+            <div class="card resource-card">
+                <span class="tag tag-live">Open source</span>
+                <span class="emoji" aria-hidden="true">🧬</span>
+                <h3>PiGICo</h3>
+                <p class="muted small" style="margin-top: -0.5rem;">Pig Gut Integrated Cohort</p>
+                <p>A comprehensive genomic resource used to characterize the taxonomic breadth and metabolic capacity of swine gut microbes. It annotates key functional traits, including ARGs, virulence factors, and specialized metabolic pathways, and leverages machine learning to associate functional profiles with host health phenotypes.</p>
+                <div class="actions"><a href="https://github.com/zisanurrahman/PiGICo-main_submission" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View on GitHub</a></div>
+            </div>
 
-<h2 style="color: #002F5F; margin-bottom: 1.5rem;">Bioinformatics Tools & Pipelines</h2>
-
-<ul style="line-height: 1.8; list-style: none; padding: 0;">
-    
-    <li style="margin-bottom: 2rem;">
-        <h4 style="margin: 0 0 0.5rem 0;">
-            <a href="https://github.com/zisanurrahman/PiGICo-main_submission" target="_blank" style="color: #002F5F; text-decoration: none;">
-                🧬 PiGICo (Pig Gut Integrated Cohort)
-            </a>
-        </h4>
-        <p style="margin: 0; font-size: 0.95rem; color: #444;">
-            A comprehensive genomic resource used to characterize the taxonomic breadth and metabolic capacity of swine gut microbes. It annotates key functional traits—including ARGs, virulence factors, and specialized metabolic pathways—and leverages machine learning to associate functional profiles with host health phenotypes.
-        </p>
-        <a href="https://github.com/zisanurrahman/PiGICo-main_submission" target="_blank" style="font-size: 0.85rem; color: #00A9B7; font-weight: bold;">View on GitHub &rarr;</a>
-    </li>
-
-    <li style="margin-bottom: 2rem;">
-        <h4 style="margin: 0 0 0.5rem 0;">
-            <a href="https://github.com/zisanurrahman/MAGnet/tree/main" target="_blank" style="color: #002F5F; text-decoration: none;">
-                🧲 MAGnet: Modular Metagenomic Binning Framework
-            </a>
-        </h4>
-        <p style="margin: 0; font-size: 0.95rem; color: #444;">
-            A modular, HPC-friendly metagenomic binning and refinement wrapper suite designed to recover high-quality MAGs using ensemble binning and fast consensus refinement. It supports sample grouping for co-assemblies and is optimized for scalability in large-scale metagenomic analyses.
-        </p>
-        <a href="https://github.com/zisanurrahman/MAGnet/tree/main" target="_blank" style="font-size: 0.85rem; color: #00A9B7; font-weight: bold;">View on GitHub &rarr;</a>
-    </li>
-
-</ul>
-
+            <div class="card resource-card">
+                <span class="tag tag-live">Open source</span>
+                <span class="emoji" aria-hidden="true">🧲</span>
+                <h3>MAGnet</h3>
+                <p class="muted small" style="margin-top: -0.5rem;">Modular metagenomic binning framework</p>
+                <p>A modular, HPC-friendly metagenomic binning and refinement wrapper suite designed to recover high-quality MAGs using ensemble binning and fast consensus refinement. It supports sample grouping for co-assemblies and is optimized for scalability in large-scale metagenomic analyses.</p>
+                <div class="actions"><a href="https://github.com/zisanurrahman/MAGnet/tree/main" target="_blank" rel="noopener" class="btn btn-outline btn-sm">View on GitHub</a></div>
+            </div>
+        </div>
+    </section>
 </div>

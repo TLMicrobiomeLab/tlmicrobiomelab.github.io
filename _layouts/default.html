@@ -3,96 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | TLMRL</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% if page.url == "/" %}
+    <title>{{ site.title }}</title>
+    {% else %}
+    <title>{{ page.title }} | TLMR Lab</title>
+    {% endif %}
+    <meta name="description" content="{{ page.description | default: site.description | strip_newlines | strip }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{{ page.title }} | TLMR Lab">
+    <meta property="og:description" content="{{ page.description | default: site.description | strip_newlines | strip }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/images/logo5.png' | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#002F5F">
+
     <link rel="icon" type="image/png" href="{{ '/images/logo5.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/images/logo5.png' | relative_url }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    <header>
+    <header class="site-header">
         <div class="nav-container">
-            <div class="logo-area">
-                <a href="{{ '/' | relative_url }}" style="text-decoration: none; display: flex; align-items: center; gap: 15px;">
-                    <img src="{{ '/images/logo5.png' | relative_url }}" alt="TLMRL Logo" style="height: 80px; width: auto;">
-                    
-                    <div class="lab-name">
-                        Translational Livestock Microbiome<br>Research Lab
-                    </div>
-                </a>
-            </div>
-            
-<nav>
-    <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/about' | relative_url }}">About</a></li>
-        
-        <li class="dropdown">
-            <a href="{{ '/people' | relative_url }}" style="cursor: pointer;">
-                People <span style="font-size: 0.8em;">&#9662;</span>
+            <a class="brand" href="{{ '/' | relative_url }}">
+                <img src="{{ '/images/logo5.png' | relative_url }}" alt="TLMR Lab logo" width="52" height="52">
+                <span class="brand-text">
+                    <span class="brand-title">TLMR Lab</span>
+                    <span class="brand-sub">Translational Livestock Microbiome Research</span>
+                </span>
             </a>
-            <div class="dropdown-content">
-                <a href="{{ '/people' | relative_url }}">Current Members</a>
-                <a href="{{ '/past-members' | relative_url }}">Past Members</a>
-            </div>
-        </li>
 
-        <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
-        <li><a href="{{ '/projects' | relative_url }}">Projects</a></li>
-        
-        <li><a href="{{ '/events' | relative_url }}">Events</a></li>
-        <li><a href="{{ '/resources' | relative_url }}">Resources</a></li>
-    </ul>
-</nav>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation"><span></span></label>
+
+            <nav class="site-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+                    <li><a href="{{ '/about' | relative_url }}" {% if page.url contains "/about" %}class="active"{% endif %}>About</a></li>
+                    <li class="dropdown">
+                        <a href="{{ '/people' | relative_url }}" {% if page.url contains "/people" or page.url contains "/past-members" %}class="active"{% endif %}>
+                            People
+                            <svg class="caret" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 3.5 5 6.5 8 3.5"/></svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="{{ '/people' | relative_url }}">Current Members</a>
+                            <a href="{{ '/past-members' | relative_url }}">Past Members</a>
+                        </div>
+                    </li>
+                    <li><a href="{{ '/projects' | relative_url }}" {% if page.url contains "/projects" %}class="active"{% endif %}>Research</a></li>
+                    <li><a href="{{ '/publications' | relative_url }}" {% if page.url contains "/publications" %}class="active"{% endif %}>Publications</a></li>
+                    <li><a href="{{ '/resources' | relative_url }}" {% if page.url contains "/resources" %}class="active"{% endif %}>Resources</a></li>
+                    <li><a href="{{ '/events' | relative_url }}" {% if page.url contains "/events" %}class="active"{% endif %}>News</a></li>
+                    <li><a href="{{ '/prospective' | relative_url }}" class="btn-nav {% if page.url contains "/prospective" %}active{% endif %}">Join Us</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main>
+    <main id="main">
         {{ content }}
     </main>
 
-    <div class="funding-bar">
-        <div class="nav-container" style="flex-direction: column;">
-            <h4 style="margin-top: 0; color: #555; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;"> Our Research is Funded By</h4>
-            
-            <div class="carousel-wrapper">
-                <button class="carousel-btn prev" onclick="scrollFunding(-1)">&#10094;</button>
-
-                <div class="carousel-track" id="fundingTrack">
-                    <img src="{{ '/images/funding/cfi.png' | relative_url }}" alt="CFI">
-                    
-                    <img src="{{ '/images/funding/mitacs.png' | relative_url }}" alt="Mitacs">
-                    
-                    <img src="{{ '/images/funding/nserc.png' | relative_url }}" alt="NSERC">
-                    
-                    <img src="{{ '/images/funding/rm.png' | relative_url }}" alt="RM">
-                    
-                    <img src="{{ '/images/funding/scap.png' | relative_url }}" alt="SCAP">
-                    
-                    <img src="{{ '/images/funding/wdc.png' | relative_url }}" alt="WDC">
-                </div>
-
-                <button class="carousel-btn next" onclick="scrollFunding(1)">&#10095;</button>
+    <section class="funding-bar" aria-label="Funding partners">
+        <div class="container">
+            <h4>Our research is supported by</h4>
+            <div class="funding-logos">
+                <img src="{{ '/images/funding/cfi.png' | relative_url }}" alt="Canada Foundation for Innovation" loading="lazy">
+                <img src="{{ '/images/funding/nserc.png' | relative_url }}" alt="NSERC" loading="lazy">
+                <img src="{{ '/images/funding/mitacs.png' | relative_url }}" alt="Mitacs" loading="lazy">
+                <img src="{{ '/images/funding/rm.png' | relative_url }}" alt="Research Manitoba" loading="lazy">
+                <img src="{{ '/images/funding/scap.png' | relative_url }}" alt="Sustainable Canadian Agricultural Partnership" loading="lazy">
+                <img src="{{ '/images/funding/wdc.png' | relative_url }}" alt="Western Dairy Council" loading="lazy">
             </div>
         </div>
-    </div>
+    </section>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; {{ 'now' | date: "%Y" }} Translational Livestock Microbiome Research Lab. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">
+                        <img src="{{ '/images/logo5.png' | relative_url }}" alt="" width="48" height="48" loading="lazy">
+                        <div>
+                            <strong>TLMR Lab</strong>
+                            <span>Translational Livestock Microbiome Research</span>
+                        </div>
+                    </div>
+                    <p>Department of Animal Science<br>
+                    Faculty of Agricultural and Food Sciences<br>
+                    University of Manitoba<br>
+                    Room 230 Animal Science Building, 12 Dafoe Road<br>
+                    Winnipeg, Manitoba R3T 2N2, Canada</p>
+                </div>
+                <div>
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="{{ '/about' | relative_url }}">About the lab</a></li>
+                        <li><a href="{{ '/projects' | relative_url }}">Research</a></li>
+                        <li><a href="{{ '/people' | relative_url }}">People</a></li>
+                        <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+                        <li><a href="{{ '/resources' | relative_url }}">Resources</a></li>
+                        <li><a href="{{ '/events' | relative_url }}">News &amp; events</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="{{ '/prospective' | relative_url }}">Join the team</a></li>
+                        <li><a href="mailto:hooman.derakhshani@umanitoba.ca">hooman.derakhshani@umanitoba.ca</a></li>
+                        <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=Derakhshani+H%5BAuthor%5D+NOT+(Depression+OR+Psychiatry+OR+rTMS)" target="_blank" rel="noopener">PubMed</a></li>
+                        <li><a href="https://umanitoba.ca/agricultural-food-sciences/animal-science" target="_blank" rel="noopener">Department of Animal Science</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; {{ 'now' | date: "%Y" }} Translational Livestock Microbiome Research Lab. All rights reserved.</span>
+                <span>University of Manitoba · Winnipeg, Canada</span>
+            </div>
         </div>
     </footer>
-
-    <script>
-        function scrollFunding(direction) {
-            const track = document.getElementById('fundingTrack');
-            const scrollAmount = 300; // Pixel distance to scroll per click
-            
-            track.scrollBy({ 
-                left: direction * scrollAmount, 
-                behavior: 'smooth' 
-            });
-        }
-    </script>
-
 </body>
 </html>

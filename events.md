@@ -1,314 +1,192 @@
 ---
 layout: default
 title: Lab News & Events
+description: Conference presentations, milestones, and social outings from the TLMR Lab.
 permalink: /events/
 ---
 
-<style>
-    @media (max-width: 700px) {
-        .eaap-grid { grid-template-columns: repeat(2, 1fr) !important; }
-    }
-    @media (max-width: 480px) {
-        .eaap-grid { grid-template-columns: 1fr !important; }
-    }
-</style>
-
-<div class="content-wrapper">
-
-<h1>Lab News & Events</h1>
-<p style="margin-bottom: 3rem;">Updates from the lab, conferences, and social outings.</p>
-
-<div style="margin-bottom: 3rem;">
-    
-    <h2 style="margin-top: 0; color: #002F5F;">TLMR Lab at EAAP 2026, Hamburg</h2>
-    <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 September 9, 2026</p>
-    
-    <p style="max-width: 800px;">
-        The lab crossed the Atlantic for the <strong>77th Annual Meeting of the European Federation of Animal Science (EAAP)</strong> in Hamburg, Germany. Dr. Hooman Derakhshani, <strong>Larissa Scott</strong>, and <strong>Nahidur Rahman</strong> represented TLMR Lab at one of the largest gatherings of animal scientists in the world.
-    </p>
-    <p style="max-width: 800px;">
-        Both Larissa and Nahidur took the stage with oral presentations. <strong>Larissa</strong> presented her MSc work on an expanded collection of rumen bacterial isolates and genomes, and how this resource reveals microbial signatures of feed efficiency in cattle. <strong>Nahidur</strong> presented his PhD research on antimicrobial resistance in the dairy industry from a One Health perspective. It was the first international conference for both of them, and they handled it with confidence. Congratulations, Larissa and Nahidur!
-    </p>
-
-    <div class="eaap-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 1.5rem;">
-        
-        <div>
-            <img src="{{ '/images/eaap2026/eaap-1.jpg' | relative_url }}" alt="Nahidur Rahman, Larissa Scott, and Dr. Hooman Derakhshani at EAAP 2026" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The Hamburg delegation: Nahidur, Larissa, and Dr. Derakhshani, badges on.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/eaap2026/eaap-5.jpg' | relative_url }}" alt="Nahidur Rahman presenting at the podium at EAAP 2026" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Nahidur at the podium, presenting his work on antimicrobial resistance in dairy.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/eaap2026/eaap-4.jpg' | relative_url }}" alt="Larissa Scott presenting the title slide of her talk at EAAP 2026" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Larissa opening her talk on rumen bacterial isolates and feed efficiency in cattle.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/eaap2026/eaap-3.jpg' | relative_url }}" alt="Larissa Scott at the podium on her acknowledgements slide" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Larissa fielding questions from the audience, smile intact.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/eaap2026/eaap-2.jpg' | relative_url }}" alt="Dr. Hooman Derakhshani and Larissa Scott at EAAP 2026" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Supervisor and student, post-talk and visibly relieved.
-            </p>
-        </div>
-
-    </div>
-</div>
-
-<hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 3rem;">
-
-<div style="margin-bottom: 3rem;">
-    
-    <h2 style="margin-top: 0; color: #002F5F;">Lab Beach Day 2026</h2>
-    <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 August 12, 2026</p>
-    
-    <p style="max-width: 800px;">
-        The lab traded incubators for sunshine and drove out to <strong>Grand Beach</strong> on the eastern shore of Lake Winnipeg for our summer beach day. Between swimming, snacks, and a cooler that doubled as furniture, it was a proper reset before the fall term — and, as far as we can tell, the only lab activity all year that required sunscreen.
-    </p>
-    <p style="max-width: 800px;">
-        Family members came along, the chips supply was generous, and nobody mentioned sequencing depth even once. A good day.
-    </p>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
-        
-        <div>
-            <img src="{{ '/images/beach2026/beach-1.jpg' | relative_url }}" alt="Lab group selfie on the beach" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The obligatory group selfie. Two peace signs, zero regrets.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/beach2026/beach-2.jpg' | relative_url }}" alt="TLMR lab members lined up at the beach" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The full lineup, Lake Winnipeg stretching out behind us. Sunscreen: applied. Mostly.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/beach2026/beach-3.jpg' | relative_url }}" alt="Arm wrestling match on a cooler at the beach" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                A rigorous arm-wrestling trial. Sample size: 2. Cooler: load-bearing.
-            </p>
-        </div>
-
-    </div>
-</div>
-
-<hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 3rem;">
-
-<div style="margin-bottom: 3rem;">
-    
-    <h2 style="margin-top: 0; color: #002F5F;">Congratulations, Fatemeh — MSc Thesis Defended!</h2>
-    <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 July 24, 2026</p>
-    
-    <p style="max-width: 800px;">
-        <strong>Fatemeh Mohammadian</strong> successfully defended her MSc thesis in the Department of Animal Science, supervised by Dr. Hooman Derakhshani with advisors Dr. Chengbo Yang and Dr. Sean Walkowiak.
-    </p>
-    <p style="max-width: 800px;">
-        Well deserved — the hard work paid off. We are proud to celebrate this important milestone and wish Fatemeh all the best in her future endeavors.
-    </p>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
-        
-        <div>
-            <img src="{{ '/images/defense2026/defense-1.jpg' | relative_url }}" alt="Fatemeh presenting her defense seminar" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Mid-defense: walking the room through antimicrobial peptides across bacterial lineages.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/defense2026/defense-2.jpg' | relative_url }}" alt="Fatemeh with her supervisor and advisory committee" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                With her supervisor and advisory committee — and a very well-earned bouquet.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/defense2026/defense-3.jpg' | relative_url }}" alt="Fatemeh with her supervisor Dr. Hooman Derakhshani" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Supervisor and student, one thesis lighter.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/defense2026/defense-4.jpg' | relative_url }}" alt="TLMR lab members celebrating after the defense" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The TLMR crew showed up in force. No one left before the flowers.
-            </p>
-        </div>
-
-    </div>
-</div>
-
-<hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 3rem;">
-
-<div style="margin-bottom: 3rem;">
-    
-    <h2 style="margin-top: 0; color: #002F5F;">Departmental BBQ Summer 2026</h2>
-    <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 May 28, 2026</p>
-    
-    <p style="max-width: 800px;">
-        Our lab members rolled up their sleeves to volunteer at the <strong>Departmental BBQ Summer 2026</strong> — because apparently, we don't just run experiments in the lab, we also feed people. From manning the grill to running the registration table, the TLMR crew brought the same enthusiasm to burger-flipping as they do to bench work.
-    </p>
-    <p style="max-width: 800px;">
-        It was a sunny afternoon of good food, good company, and a crab apple tree that absolutely refused to stay out of frame. A great way to connect with the broader department community — outside of a seminar room.
-    </p>
-
-    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 1.5rem;">
-        
-        <div>
-            <img src="{{ '/images/bbq2026/20260527_121616.jpg' | relative_url }}" alt="Lab grill crew" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The PI insisted he was 'just supervising.' The tongs say otherwise.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/bbq2026/20260527_121631.jpg' | relative_url }}" alt="Guests lining up for food" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The queue. Proof that nothing brings a department together quite like food.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/bbq2026/20260527_121757.jpg' | relative_url }}" alt="Lab member at food table" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Condiment table: approved. Two thumbs up from our most rigorous quality control officer.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/bbq2026/20260527_121801.jpg' | relative_url }}" alt="Lab members at food station" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Food station duty: unexpectedly competitive résumé material.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/bbq2026/20260527_124255.jpg' | relative_url }}" alt="Lab members at registration table" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The registration crew: keeping the chaos organized and smiling through every ticket stub.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/bbq2026/20260527_133146.jpg' | relative_url }}" alt="TLMR group photo" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Full squad, full stomachs. The crab apple tree demanded to be in the photo — we let it.
-            </p>
-        </div>
-
-    </div>
-</div>
-
-<hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 3rem;">
-
-<div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 3rem; flex-wrap: wrap;">
-    
-    <div style="flex: 0 0 300px;">
-        <img src="{{ '/images/holiday-2025.png' | relative_url }}" 
-             alt="Lab Holiday Party" 
-             style="width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
-             onerror="this.src='https://via.placeholder.com/300x200?text=Holiday+Party'">
-        <div style="font-size: 0.85rem; color: #888; margin-top: 5px; text-align: center;">
-            📸 Lab Holiday Party, December 2025
-        </div>
+<div class="container">
+    <div class="page-header">
+        <span class="eyebrow">News &amp; events</span>
+        <h1>Lab News &amp; Events</h1>
+        <p class="lead">Updates from the lab, conferences, and social outings.</p>
     </div>
 
-    <div style="flex: 1; min-width: 300px;">
-        <h2 style="margin-top: 0; color: #002F5F;">Annual Holiday Party 2025</h2>
-        <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 December 18, 2025</p>
-        
-        <p>
-            We had a great time celebrating a successful year of research! It was a wonderful opportunity 
-            for everyone to get together and chat about topics beyond science.
-        </p>
-        <p>Looking forward to next year!</p>
-    </div>
-</div>
-
-<hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 3rem;">
-
-<div style="margin-bottom: 3rem;">
-    
-    <h2 style="margin-top: 0; color: #002F5F;">TLMR Team at CSM 2025</h2>
-    <p style="color: #888; font-size: 0.9rem; margin-bottom: 1rem;">📅 June 2025</p>
-    
-    <p style="max-width: 800px;">
-        The TLMR team had a strong presence at the <strong>Canadian Society of Microbiologists (CSM)</strong> conference 2025! Our members presented their latest research through a series of poster presentations, covering diverse topics from antimicrobial resistance to rumen and swine gut microbiome.
-    </p>
-    <p style="max-width: 800px;">
-        It was a fantastic opportunity to share our findings, receive valuable feedback, and connect with the wider microbiology community. Great reception and interesting questions from the audience!
-    </p>
-
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 1.5rem;">
-        
-        <div>
-            <img src="{{ '/images/csm-1.png' | relative_url }}" alt="A part of the TLMR Group" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The squad looking sharp (and highly caffeinated) before the session started.
-            </p>
+    <article class="event">
+        <div class="event-head">
+            <span class="event-date"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>September 9, 2026</span>
+            <span class="tag">Conference</span>
+            <h2>TLMR Lab at EAAP 2026, Hamburg</h2>
         </div>
-        
-        <div>
-            <img src="{{ '/images/csm-2.png' | relative_url }}" alt="Larissa's Poster" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Larissa spotted in her natural habitat: explaining the data with style and a smile. End result? Larissa: 1, Tough Questions: 0.
-            </p>
+        <div class="prose">
+            <p>The lab crossed the Atlantic for the <strong>77th Annual Meeting of the European Federation of Animal Science (EAAP)</strong> in Hamburg, Germany. Dr. Hooman Derakhshani, <strong>Larissa Scott</strong>, and <strong>Nahidur Rahman</strong> represented TLMR Lab at one of the largest gatherings of animal scientists in the world.</p>
+            <p>Both Larissa and Nahidur took the stage with oral presentations. <strong>Larissa</strong> presented her MSc work on an expanded collection of rumen bacterial isolates and genomes, and how this resource reveals microbial signatures of feed efficiency in cattle. <strong>Nahidur</strong> presented his PhD research on antimicrobial resistance in the dairy industry from a One Health perspective. It was the first international conference for both of them, and they handled it with confidence. Congratulations, Larissa and Nahidur!</p>
         </div>
-             
-        <div>
-            <img src="{{ '/images/csm-3.png' | relative_url }}" alt="Poster Presentation" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Nahidur explaining complex ARG data while trying not to think about lunch.
-            </p>
+        <div class="photo-grid cols-3">
+            <div class="photo-tile">
+                <img src="{{ '/images/eaap2026/eaap-1.jpg' | relative_url }}" alt="Nahidur Rahman, Larissa Scott, and Dr. Hooman Derakhshani at EAAP 2026" loading="lazy">
+                <p class="caption">The Hamburg delegation: Nahidur, Larissa, and Dr. Derakhshani, badges on.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/eaap2026/eaap-5.jpg' | relative_url }}" alt="Nahidur Rahman presenting at the podium at EAAP 2026" loading="lazy">
+                <p class="caption">Nahidur at the podium, presenting his work on antimicrobial resistance in dairy.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/eaap2026/eaap-4.jpg' | relative_url }}" alt="Larissa Scott presenting the title slide of her talk at EAAP 2026" loading="lazy">
+                <p class="caption">Larissa opening her talk on rumen bacterial isolates and feed efficiency in cattle.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/eaap2026/eaap-3.jpg' | relative_url }}" alt="Larissa Scott at the podium on her acknowledgements slide" loading="lazy">
+                <p class="caption">Larissa fielding questions from the audience, smile intact.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/eaap2026/eaap-2.jpg' | relative_url }}" alt="Dr. Hooman Derakhshani and Larissa Scott at EAAP 2026" loading="lazy">
+                <p class="caption">Supervisor and student, post-talk and visibly relieved.</p>
+            </div>
         </div>
-             
-        <div>
-            <img src="{{ '/images/csm-4.png' | relative_url }}" alt="Poster Presentation" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Fatemeh proudly standing next to her "poster child" (months of work compressed into 4x3 feet).
-            </p>
-        </div>
+    </article>
 
-    </div>
+    <article class="event">
+        <div class="event-head">
+            <span class="event-date"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>August 12, 2026</span>
+            <span class="tag tag-muted">Social</span>
+            <h2>Lab Beach Day 2026</h2>
+        </div>
+        <div class="prose">
+            <p>The lab traded incubators for sunshine and drove out to <strong>Grand Beach</strong> on the eastern shore of Lake Winnipeg for our summer beach day. Between swimming, snacks, and a cooler that doubled as furniture, it was a proper reset before the fall term, and, as far as we can tell, the only lab activity all year that required sunscreen.</p>
+            <p>Family members came along, the chips supply was generous, and nobody mentioned sequencing depth even once. A good day.</p>
+        </div>
+        <div class="photo-grid cols-3">
+            <div class="photo-tile">
+                <img src="{{ '/images/beach2026/beach-1.jpg' | relative_url }}" alt="Lab group selfie on the beach" loading="lazy">
+                <p class="caption">The obligatory group selfie. Two peace signs, zero regrets.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/beach2026/beach-2.jpg' | relative_url }}" alt="TLMR lab members lined up at the beach" loading="lazy">
+                <p class="caption">The full lineup, Lake Winnipeg stretching out behind us. Sunscreen: applied. Mostly.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/beach2026/beach-3.jpg' | relative_url }}" alt="Arm wrestling match on a cooler at the beach" loading="lazy">
+                <p class="caption">A rigorous arm-wrestling trial. Sample size: 2. Cooler: load-bearing.</p>
+            </div>
+        </div>
+    </article>
+
+    <article class="event">
+        <div class="event-head">
+            <span class="event-date"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>July 24, 2026</span>
+            <span class="tag">Milestone</span>
+            <h2>Congratulations, Fatemeh: MSc Thesis Defended!</h2>
+        </div>
+        <div class="prose">
+            <p><strong>Fatemeh Mohammadian</strong> successfully defended her MSc thesis in the Department of Animal Science, supervised by Dr. Hooman Derakhshani with advisors Dr. Chengbo Yang and Dr. Sean Walkowiak.</p>
+            <p>Well deserved. The hard work paid off. We are proud to celebrate this important milestone and wish Fatemeh all the best in her future endeavors.</p>
+        </div>
+        <div class="photo-grid cols-4">
+            <div class="photo-tile">
+                <img src="{{ '/images/defense2026/defense-1.jpg' | relative_url }}" alt="Fatemeh presenting her defense seminar" loading="lazy">
+                <p class="caption">Mid-defense: walking the room through antimicrobial peptides across bacterial lineages.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/defense2026/defense-2.jpg' | relative_url }}" alt="Fatemeh with her supervisor and advisory committee" loading="lazy">
+                <p class="caption">With her supervisor and advisory committee, and a very well-earned bouquet.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/defense2026/defense-3.jpg' | relative_url }}" alt="Fatemeh with her supervisor Dr. Hooman Derakhshani" loading="lazy">
+                <p class="caption">Supervisor and student, one thesis lighter.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/defense2026/defense-4.jpg' | relative_url }}" alt="TLMR lab members celebrating after the defense" loading="lazy">
+                <p class="caption">The TLMR crew showed up in force. No one left before the flowers.</p>
+            </div>
+        </div>
+    </article>
+
+    <article class="event">
+        <div class="event-head">
+            <span class="event-date"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>May 28, 2026</span>
+            <span class="tag tag-muted">Community</span>
+            <h2>Departmental BBQ Summer 2026</h2>
+        </div>
+        <div class="prose">
+            <p>Our lab members rolled up their sleeves to volunteer at the <strong>Departmental BBQ Summer 2026</strong>, because apparently we don't just run experiments in the lab, we also feed people. From manning the grill to running the registration table, the TLMR crew brought the same enthusiasm to burger-flipping as they do to bench work.</p>
+            <p>It was a sunny afternoon of good food, good company, and a crab apple tree that absolutely refused to stay out of frame. A great way to connect with the broader department community, outside of a seminar room.</p>
+        </div>
+        <div class="photo-grid cols-3">
+            <div class="photo-tile">
+                <img src="{{ '/images/bbq2026/20260527_121616.jpg' | relative_url }}" alt="Lab grill crew" loading="lazy">
+                <p class="caption">The PI insisted he was 'just supervising.' The tongs say otherwise.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/bbq2026/20260527_121631.jpg' | relative_url }}" alt="Guests lining up for food" loading="lazy">
+                <p class="caption">The queue. Proof that nothing brings a department together quite like food.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/bbq2026/20260527_121757.jpg' | relative_url }}" alt="Lab member at food table" loading="lazy">
+                <p class="caption">Condiment table: approved. Two thumbs up from our most rigorous quality control officer.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/bbq2026/20260527_121801.jpg' | relative_url }}" alt="Lab members at food station" loading="lazy">
+                <p class="caption">Food station duty: unexpectedly competitive résumé material.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/bbq2026/20260527_124255.jpg' | relative_url }}" alt="Lab members at registration table" loading="lazy">
+                <p class="caption">The registration crew: keeping the chaos organized and smiling through every ticket stub.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/bbq2026/20260527_133146.jpg' | relative_url }}" alt="TLMR group photo" loading="lazy">
+                <p class="caption">Full squad, full stomachs. The crab apple tree demanded to be in the photo. We let it.</p>
+            </div>
+        </div>
+    </article>
+
+    <article class="event">
+        <div class="event-side">
+            <div>
+                <img src="{{ '/images/holiday-2025.png' | relative_url }}" alt="TLMR Lab holiday party, December 2025" loading="lazy">
+                <p class="caption">Lab Holiday Party, December 2025</p>
+            </div>
+            <div>
+                <div class="event-head">
+                    <span class="event-date"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>December 18, 2025</span>
+                    <span class="tag tag-muted">Social</span>
+                    <h2>Annual Holiday Party 2025</h2>
+                </div>
+                <div class="prose">
+                    <p>We had a great time celebrating a successful year of research! It was a wonderful opportunity for everyone to get together and chat about topics beyond science.</p>
+                    <p>Looking forward to next year!</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article class="event">
+        <div class="event-head">
+            <span class="event-date"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>June 2025</span>
+            <span class="tag">Conference</span>
+            <h2>TLMR Team at CSM 2025</h2>
+        </div>
+        <div class="prose">
+            <p>The TLMR team had a strong presence at the <strong>Canadian Society of Microbiologists (CSM)</strong> conference 2025! Our members presented their latest research through a series of poster presentations, covering diverse topics from antimicrobial resistance to rumen and swine gut microbiome.</p>
+            <p>It was a fantastic opportunity to share our findings, receive valuable feedback, and connect with the wider microbiology community. Great reception and interesting questions from the audience!</p>
+        </div>
+        <div class="photo-grid cols-4">
+            <div class="photo-tile">
+                <img src="{{ '/images/csm-1.png' | relative_url }}" alt="A part of the TLMR Group" loading="lazy">
+                <p class="caption">The squad looking sharp (and highly caffeinated) before the session started.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/csm-2.png' | relative_url }}" alt="Larissa's Poster" loading="lazy">
+                <p class="caption">Larissa spotted in her natural habitat: explaining the data with style and a smile. End result? Larissa: 1, Tough Questions: 0.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/csm-3.png' | relative_url }}" alt="Nahidur presenting his poster" loading="lazy">
+                <p class="caption">Nahidur explaining complex ARG data while trying not to think about lunch.</p>
+            </div>
+            <div class="photo-tile">
+                <img src="{{ '/images/csm-4.png' | relative_url }}" alt="Fatemeh presenting her poster" loading="lazy">
+                <p class="caption">Fatemeh proudly standing next to her "poster child" (months of work compressed into 4x3 feet).</p>
+            </div>
+        </div>
+    </article>
 </div>
