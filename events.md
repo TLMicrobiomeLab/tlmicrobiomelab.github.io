@@ -33,6 +33,22 @@ permalink: /events/
     <div class="eaap-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 1.5rem;">
         
         <div>
+            <img src="{{ '/images/eaap2026/eaap-1.jpg' | relative_url }}" alt="Nahidur Rahman, Larissa Scott, and Dr. Hooman Derakhshani at EAAP 2026" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                The Hamburg delegation: Nahidur, Larissa, and Dr. Derakhshani, badges on.
+            </p>
+        </div>
+
+        <div>
+            <img src="{{ '/images/eaap2026/eaap-5.jpg' | relative_url }}" alt="Nahidur Rahman presenting at the podium at EAAP 2026" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
+                Nahidur at the podium, presenting his work on antimicrobial resistance in dairy.
+            </p>
+        </div>
+
+        <div>
             <img src="{{ '/images/eaap2026/eaap-4.jpg' | relative_url }}" alt="Larissa Scott presenting the title slide of her talk at EAAP 2026" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
@@ -49,26 +65,10 @@ permalink: /events/
         </div>
 
         <div>
-            <img src="{{ '/images/eaap2026/eaap-5.jpg' | relative_url }}" alt="Nahidur Rahman presenting at the podium at EAAP 2026" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Nahidur at the podium, presenting his work on antimicrobial resistance in dairy.
-            </p>
-        </div>
-
-        <div>
             <img src="{{ '/images/eaap2026/eaap-2.jpg' | relative_url }}" alt="Dr. Hooman Derakhshani and Larissa Scott at EAAP 2026" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
                 Supervisor and student, post-talk and visibly relieved.
-            </p>
-        </div>
-
-        <div>
-            <img src="{{ '/images/eaap2026/eaap-1.jpg' | relative_url }}" alt="Nahidur Rahman, Larissa Scott, and Dr. Hooman Derakhshani at EAAP 2026" 
-                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-            <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                The Hamburg delegation: Nahidur, Larissa, and Dr. Derakhshani, badges on.
             </p>
         </div>
 
