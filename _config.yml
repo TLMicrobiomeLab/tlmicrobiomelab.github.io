@@ -13,3 +13,8 @@ baseurl: ""
 theme: minima
 plugins:
   - jekyll-feed
+
+# Events collection: one file per news item in _events/
+collections:
+  events:
+    output: false

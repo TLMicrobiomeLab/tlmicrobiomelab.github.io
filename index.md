@@ -89,39 +89,96 @@ permalink: /
 
 <section class="section">
     <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Latest from the lab</span>
-            <h2>News &amp; events</h2>
+        <div class="section-head" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem;">
+            <div>
+                <span class="eyebrow">Latest from the lab</span>
+                <h2 style="margin: 0;">News &amp; events</h2>
+            </div>
+            <a href="{{ '/events' | relative_url }}" class="btn btn-outline btn-sm">All news &amp; events</a>
         </div>
-        <div class="news-grid">
-            <a href="{{ '/events' | relative_url }}" class="card news-card">
-                <img src="{{ '/images/eaap2026/eaap-1.jpg' | relative_url }}" alt="Nahidur Rahman, Larissa Scott, and Dr. Hooman Derakhshani at EAAP 2026 in Hamburg" loading="lazy">
-                <div class="body">
-                    <span class="date">September 2026 · Hamburg, Germany</span>
-                    <h3>TLMR Lab at EAAP 2026</h3>
-                    <p>Larissa Scott and Nahidur Rahman gave oral presentations at the 77th Annual Meeting of the European Federation of Animal Science, their first international conference.</p>
+
+        {% assign latest = site.events | sort: "date" | reverse | slice: 0, 3 %}
+        <div class="news-slider" id="news-slider">
+            <div class="news-track" id="news-track" aria-live="polite">
+                <div class="news-strip" id="news-strip">
+                {% for event in latest %}
+                <a href="{{ '/events' | relative_url }}#{{ event.date | date: '%Y-%m-%d' }}" class="news-slide">
+                    <img src="{{ event.image | relative_url }}" alt="{{ event.title }}" loading="lazy">
+                    <div class="body">
+                        <span class="date">{% if event.date_display %}{{ event.date_display }}{% else %}{{ event.date | date: "%B %Y" }}{% endif %}{% if event.location %} · {{ event.location }}{% endif %}</span>
+                        <h3>{{ event.title }}</h3>
+                        <p>{{ event.summary }}</p>
+                        <span class="more">Read more →</span>
+                    </div>
+                </a>
+                {% endfor %}
                 </div>
-            </a>
-            <div class="news-stack">
-                <a href="{{ '/events' | relative_url }}" class="card news-card">
-                    <img src="{{ '/images/beach2026/beach-2.jpg' | relative_url }}" alt="TLMR lab members at Grand Beach" loading="lazy">
-                    <div class="body">
-                        <span class="date">August 2026</span>
-                        <h3>Lab Beach Day at Grand Beach</h3>
-                    </div>
-                </a>
-                <a href="{{ '/events' | relative_url }}" class="card news-card">
-                    <img src="{{ '/images/defense2026/defense-2.jpg' | relative_url }}" alt="Fatemeh Mohammadian with her advisory committee after her defense" loading="lazy">
-                    <div class="body">
-                        <span class="date">July 2026</span>
-                        <h3>Fatemeh defends her MSc thesis</h3>
-                    </div>
-                </a>
+            </div>
+            <div class="news-controls">
+                <button class="news-arrow" type="button" data-dir="-1" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+                <div class="news-dots" id="news-dots" role="tablist" aria-label="Choose a news item"></div>
+                <button class="news-arrow" type="button" data-dir="1" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
             </div>
         </div>
-        <p style="margin-top: 1.5rem;"><a href="{{ '/events' | relative_url }}" class="btn btn-outline btn-sm">All news &amp; events</a></p>
     </div>
 </section>
+
+<script>
+(function () {
+    const slider = document.getElementById("news-slider");
+    const track = document.getElementById("news-track");
+    const strip = document.getElementById("news-strip");
+    const dotsEl = document.getElementById("news-dots");
+    if (!slider || !strip) return;
+    const slides = Array.from(strip.children);
+    if (slides.length < 2) { slider.querySelector(".news-controls").style.display = "none"; return; }
+
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let index = 0, timer = null;
+
+    slides.forEach((_, i) => {
+        const b = document.createElement("button");
+        b.type = "button"; b.setAttribute("role", "tab");
+        b.setAttribute("aria-label", "Show item " + (i + 1));
+        b.addEventListener("click", () => { go(i); restart(); });
+        dotsEl.appendChild(b);
+    });
+    const dots = Array.from(dotsEl.children);
+
+    function go(i) {
+        index = (i + slides.length) % slides.length;
+        strip.style.transform = "translateX(" + (-slides[index].offsetLeft) + "px)";
+        dots.forEach((d, k) => d.setAttribute("aria-selected", k === index ? "true" : "false"));
+    }
+    function stop() { if (timer) { clearInterval(timer); timer = null; } }
+    function restart() { stop(); if (!reduceMotion) timer = setInterval(() => go(index + 1), 7000); }
+
+    slider.querySelectorAll(".news-arrow").forEach(btn =>
+        btn.addEventListener("click", () => { go(index + Number(btn.dataset.dir)); restart(); }));
+
+    // Swipe support (touch and mouse drag).
+    let startX = null, moved = false;
+    track.addEventListener("pointerdown", e => { startX = e.clientX; moved = false; stop(); });
+    track.addEventListener("pointermove", e => { if (startX !== null && Math.abs(e.clientX - startX) > 8) moved = true; });
+    track.addEventListener("pointerup", e => {
+        if (startX === null) return;
+        const dx = e.clientX - startX;
+        if (Math.abs(dx) > 40) go(index + (dx < 0 ? 1 : -1));
+        startX = null; restart();
+    });
+    track.addEventListener("pointercancel", () => { startX = null; restart(); });
+    // A drag should not count as a click on the slide link.
+    slides.forEach(a => a.addEventListener("click", e => { if (moved) e.preventDefault(); }));
+
+    slider.addEventListener("mouseenter", stop);
+    slider.addEventListener("mouseleave", restart);
+    slider.addEventListener("focusin", stop);
+    slider.addEventListener("focusout", restart);
+    window.addEventListener("resize", () => go(index));
+
+    go(0); restart();
+})();
+</script>
 
 <section class="section">
     <div class="container">
