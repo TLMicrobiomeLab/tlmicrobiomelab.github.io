@@ -191,14 +191,24 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0; }
 .dropdown { position: relative; }
 .dropdown > a .caret { width: 10px; height: 10px; transition: transform 0.15s ease; }
 .dropdown-content {
-    display: none; position: absolute; top: calc(100% + 6px); left: 0; min-width: 200px;
+    position: absolute; top: calc(100% + 6px); left: 0; min-width: 200px;
     background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
     box-shadow: var(--shadow-md); padding: 0.4rem; z-index: 600;
+    /* Hidden but still laid out, so it can fade and linger instead of vanishing. */
+    opacity: 0; visibility: hidden; transform: translateY(-6px); pointer-events: none;
+    transition: opacity 0.18s ease 0.25s, transform 0.18s ease 0.25s, visibility 0s linear 0.43s;
 }
+/* Invisible bridge over the gap between the link and the menu, so the
+   cursor can travel down into the menu without closing it. */
+.dropdown-content::before { content: ""; position: absolute; left: 0; right: 0; top: -12px; height: 12px; }
 .dropdown-content a { display: block; padding: 0.6rem 0.8rem; border-radius: 6px; font-size: 0.92rem; }
 .dropdown-content a::after { display: none; }
-.dropdown:hover .dropdown-content, .dropdown:focus-within .dropdown-content { display: block; }
-.dropdown:hover > a .caret { transform: rotate(180deg); }
+.dropdown:hover .dropdown-content, .dropdown:focus-within .dropdown-content {
+    opacity: 1; visibility: visible; transform: none; pointer-events: auto;
+    transition-delay: 0s, 0s, 0s;
+}
+.dropdown:hover > a, .dropdown:focus-within > a { color: var(--navy); background: var(--bg-2); }
+.dropdown:hover > a .caret, .dropdown:focus-within > a .caret { transform: rotate(180deg); }
 
 @media (max-width: 960px) {
     .nav-toggle-label { display: inline-flex; }
@@ -214,7 +224,8 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0; }
     .site-nav a.active { background: var(--teal-100); }
     .site-nav .btn-nav.active { background: var(--navy-700); color: #fff; }
     .site-nav .btn-nav { margin: 0.5rem 0 0; justify-content: center; }
-    .dropdown-content { display: block; position: static; box-shadow: none; border: 0; padding: 0 0 0 1rem; }
+    .dropdown-content { position: static; box-shadow: none; border: 0; padding: 0 0 0 1rem; opacity: 1; visibility: visible; transform: none; pointer-events: auto; transition: none; }
+    .dropdown-content::before { display: none; }
     .dropdown > a .caret { display: none; }
     .nav-toggle:checked ~ .site-nav { max-height: 600px; }
     .nav-toggle:checked ~ .nav-toggle-label span { background: transparent; }
