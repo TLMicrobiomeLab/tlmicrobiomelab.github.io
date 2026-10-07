@@ -4,6 +4,15 @@ title: Lab News & Events
 permalink: /events/
 ---
 
+<style>
+    @media (max-width: 700px) {
+        .eaap-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    }
+    @media (max-width: 480px) {
+        .eaap-grid { grid-template-columns: 1fr !important; }
+    }
+</style>
+
 <div class="content-wrapper">
 
 <h1>Lab News & Events</h1>
@@ -21,7 +30,7 @@ permalink: /events/
         Both Larissa and Nahidur took the stage with oral presentations. <strong>Larissa</strong> presented her MSc work on an expanded collection of rumen bacterial isolates and genomes, and how this resource reveals microbial signatures of feed efficiency in cattle. <strong>Nahidur</strong> presented his PhD research on antimicrobial resistance in the dairy industry from a One Health perspective. It was the first international conference for both of them, and they handled it with confidence. Congratulations, Larissa and Nahidur!
     </p>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 1.5rem;">
+    <div class="eaap-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 1.5rem;">
         
         <div>
             <img src="{{ '/images/eaap2026/eaap-4.jpg' | relative_url }}" alt="Larissa Scott presenting the title slide of her talk at EAAP 2026" 
@@ -43,7 +52,7 @@ permalink: /events/
             <img src="{{ '/images/eaap2026/eaap-5.jpg' | relative_url }}" alt="Nahidur Rahman presenting at the podium at EAAP 2026" 
                  style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
             <p style="font-size: 0.85rem; color: #666; text-align: center; margin-top: 8px; font-style: italic;">
-                Nahidur at the podium, presenting his One Health work on antimicrobial resistance in dairy.
+                Nahidur at the podium, presenting his work on antimicrobial resistance in dairy.
             </p>
         </div>
 
