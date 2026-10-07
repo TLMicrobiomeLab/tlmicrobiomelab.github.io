@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research
-description: Research programs of the TLMR Lab: microbiome and host health, antimicrobial resistance, and sustainability through methane mitigation.
+description: "Research programs of the TLMR Lab: microbiome and host health, antimicrobial resistance, and sustainability through methane mitigation."
 permalink: /projects/
 ---
 
